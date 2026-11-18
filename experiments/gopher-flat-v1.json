@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "experiment_id": "gopher-flat-v1",
+  "expected_calculator_version": "1.39.1",
+  "synthetic_only": true,
+  "context": {
+    "route_signature": "2128890027",
+    "route_name": "Tempus Fugit",
+    "laps": 1,
+    "efficiency": 0,
+    "intensity": 0,
+    "team_size": 5
+  },
+  "probe_ftp_w": 300,
+  "active_pull_seconds": 120,
+  "fit_speeds_kph": [25, 50],
+  "blind_speeds_kph": [40],
+  "body_candidates": ["power_law", "affine", "quadratic"],
+  "linear_candidates": ["mass_linear", "affine"],
+  "selection_tolerance_w": 0.05,
+  "acceptance_max_error_w": 1.0,
+  "batches": [
+    [
+      {"id": "m55_h160", "mass_kg": 55, "height_cm": 160, "split": "train"},
+      {"id": "m55_h180", "mass_kg": 55, "height_cm": 180, "split": "train"},
+      {"id": "m55_h200", "mass_kg": 55, "height_cm": 200, "split": "train"},
+      {"id": "m75_h160", "mass_kg": 75, "height_cm": 160, "split": "train"},
+      {"id": "m75_h180", "mass_kg": 75, "height_cm": 180, "split": "train"}
+    ],
+    [
+      {"id": "m75_h200", "mass_kg": 75, "height_cm": 200, "split": "train"},
+      {"id": "m95_h160", "mass_kg": 95, "height_cm": 160, "split": "train"},
+      {"id": "m95_h180", "mass_kg": 95, "height_cm": 180, "split": "train"},
+      {"id": "m95_h200", "mass_kg": 95, "height_cm": 200, "split": "train"},
+      {"id": "m65_h170", "mass_kg": 65, "height_cm": 170, "split": "selection"}
+    ],
+    [
+      {"id": "m85_h190", "mass_kg": 85, "height_cm": 190, "split": "selection"},
+      {"id": "m60_h195", "mass_kg": 60, "height_cm": 195, "split": "test"},
+      {"id": "m90_h165", "mass_kg": 90, "height_cm": 165, "split": "test"},
+      {"id": "m55_h160", "mass_kg": 55, "height_cm": 160, "split": "train"},
+      {"id": "m95_h200", "mass_kg": 95, "height_cm": 200, "split": "train"}
+    ]
+  ],
+  "ftp_invariance": {
+    "batch_index": 2,
+    "profile_id": "m60_h195",
+    "ftp_w": [200, 400],
+    "speed_kph": 40
+  }
+}

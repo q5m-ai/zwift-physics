@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "zwift-physics"
+version = "0.1.0"
+description = "Independent flat cycling mechanics calibrated from synthetic calculator experiments"
+requires-python = ">=3.11"
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [{name = "zwift-physics contributors"}]
+dependencies = []
+
+[project.scripts]
+zwift-physics = "zwift_physics.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["zwift_physics*"]
