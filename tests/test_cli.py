@@ -29,6 +29,16 @@ class CliTests(unittest.TestCase):
         with patch('urllib.request.OpenerDirector.open',side_effect=AssertionError('Network forbidden')) as op:
             code,out,err=self.call(['collect-gopher','--plan',str(ROOT/'experiments/gopher-flat-v1.json'),'--max-requests','10'])
         self.assertEqual(code,2);self.assertFalse(op.called);self.assertIn('budget',err)
+    def test_fit_outputs_cannot_alias_source_or_each_other(self):
+        with tempfile.TemporaryDirectory() as d:
+            source=Path(d)/'source.json';source.write_text('{}\n')
+            model=Path(d)/'model.json';report=Path(d)/'report.md'
+            alias=Path(d)/'alias.json';alias.hardlink_to(source)
+            for output,audit in [(source,report),(model,source),(model,model),(model,alias)]:
+                with patch('zwift_physics.calibration.fit_dataset') as fit:
+                    code,out,err=self.call(['fit','--data',str(source),'--model',str(output),'--report',str(audit)])
+                self.assertEqual(code,2);self.assertIn('distinct',err);self.assertFalse(fit.called)
+                self.assertEqual(source.read_text(),'{}\n')
     def fixture(self):
         return dict(schema_version=1,kind='effective-flat',cubic_law=dict(family='power_law',coefficients=[math.log(.15),.6,.8]),
             linear_law=dict(family='mass_linear',coefficients=[3,.8]),draft_factors=[1,.8,.7],context={'team_size':3},

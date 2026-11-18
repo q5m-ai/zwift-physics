@@ -34,7 +34,8 @@ def _object(pairs):
 
 
 def loads(text):
-    return json.loads(text, parse_constant=_constant, object_pairs_hook=_object)
+    return json.loads(text, parse_constant=_constant, object_pairs_hook=_object,
+                      parse_float=lambda text: number(text, "JSON number", strings=True))
 
 
 def load(path):

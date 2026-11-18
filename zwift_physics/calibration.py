@@ -164,7 +164,8 @@ def fit_dataset(data):
                         blind_positions=blind_positions,blind_lead=blind_lead,
                         repeatability_pass=all(r['pass_check'] for r in repeats),ftp_invariance_pass=all(r['pass_check'] for r in invariance),
                         draft_factors_monotone=monotone))
-    report=dict(candidates=candidates,selected=selected,training_profile_coefficients={k:list(v) for k,v in per_profile.items()},
+    report=dict(candidates=candidates,selected=selected,collected_from=data['created_at'],collected_until=data['completed_at'],
+                training_profile_coefficients={k:list(v) for k,v in per_profile.items()},
                 checks=checks,repeats=repeats,ftp_invariance=invariance,lead_unique_count=len(leads),position_unique_count=len(positions),
                 raw_calibration_count=sum(len(f['observations']) for f in data['frames'] if f['purpose']=='calibration'))
     return model,report
@@ -177,6 +178,7 @@ def markdown_report(model,report):
         'This audits agreement with a third-party calculator, **not actual in-game physics**. No personal team data was used.','',
         '## Reference context','',
         f"- Source: {model['provenance']['source']} · calculator v{context['calculator_version']}",
+        f"- Collection window: {report['collected_from']} to {report['collected_until']}.",
         f"- Route: {context['route_name']} ({context['route_signature']}), one lap.",
         f"- Manual efficiency: {context['efficiency']}; intensity: {context['intensity']}; team size: {context['team_size']}.",
         '- Equipment is not separately exposed by the web export; this is a pinned-context effective model.',
@@ -184,7 +186,7 @@ def markdown_report(model,report):
         f"- {report['lead_unique_count']} unique counterfactual lead-power cells; repeated lead fields are deduplicated, not counted as independent evidence.",'',
         '## Predeclared separation','',
         'Nine body geometries train the model. Two different geometries select the interpolation family. Two further geometries and 40 km/h are held out from all fitting and family selection. Shared control geometries test repeatability under different neighboring riders.','',
-        'Lead coefficients are fit at 25 and 50 km/h. Positional factors use only training geometries at those speeds. Candidates are ranked on the separate selection geometries; the simplest family within 0.05 W RMSE of the best is chosen. Blind tests are then evaluated once.','',
+        'Lead coefficients are fit at 25 and 50 km/h. Positional factors use only training geometries at those speeds. Candidates are ranked on the separate selection geometries; the simplest family within 0.05 W RMSE of the best is chosen. Held-out tests are evaluated only after selection; no parameters are refit against them.','',
         '## Selected equations','',
         '```text','P(v, position) = alpha(mass,height) * draft[position] * v^3 + beta(mass,height) * v',
         'v in m/s, P in crank watts; position is one-based.',
@@ -193,7 +195,7 @@ def markdown_report(model,report):
         f"- Cubic law: `{model['cubic_law']}`",f"- Linear law: `{model['linear_law']}`",f"- Aero draft factors: `{model['draft_factors']}`",'',
         'Draft scales only the effective cubic term, not all watts. Neither fitted term separately identifies CdA, Crr, air density, drivetrain efficiency or equipment.','',
         '## Candidate selection (not the blind test)','',
-        '| Cubic family | Linear family | Parameters | Selection RMSE W |','|---|---|---:|---:|']
+        '| Cubic family | Linear family | Body-law coefficients | Selection RMSE W |','|---|---|---:|---:|']
     for c in report['candidates']:
         lines.append(f"| {c['cubic_law']['family']} | {c['linear_law']['family']} | {c['parameter_count']} | {c['selection']['rmse_w']:.6f} |")
     lines += ['', '## Blind-test results','', '| Readback | Cases | Maximum absolute error W | RMSE W |','|---|---:|---:|---:|']

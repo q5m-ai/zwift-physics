@@ -62,6 +62,11 @@ def main(argv=None):
             emit(dict(status=result["status"], requests=result["request_count"], frames=len(result["frames"]), output=str(args.output)))
         elif args.command == "fit":
             from .calibration import fit_dataset, markdown_report
+            paths = (args.data, args.model, args.report)
+            for index, first in enumerate(paths):
+                for second in paths[index+1:]:
+                    if first.resolve() == second.resolve() or (first.exists() and second.exists() and first.samefile(second)):
+                        raise ValueError("Data, model and report must be distinct files; source observations cannot be overwritten")
             model, report = fit_dataset(load(args.data))
             save(args.model, model)
             args.report.parent.mkdir(parents=True, exist_ok=True)

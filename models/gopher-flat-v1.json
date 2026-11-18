@@ -1,0 +1,85 @@
+{
+  "context": {
+    "calculator_version": "1.39.1",
+    "distance_km": 19.59,
+    "efficiency": 0,
+    "efficiency_manual": true,
+    "elevation_m": 31.8,
+    "equipment": "not separately exposed by the web JSON export",
+    "intensity": 0,
+    "laps": 1,
+    "route_name": "Tempus Fugit",
+    "route_signature": "2128890027",
+    "team_size": 5
+  },
+  "cubic_law": {
+    "coefficients": [
+      0.14812747776000001,
+      0.027591321600000003,
+      0.01682726399999999,
+      -0.002607551999999973,
+      0.002513591999999981,
+      -0.00039916800000004704
+    ],
+    "family": "quadratic"
+  },
+  "domain": {
+    "height_cm": [
+      160,
+      200
+    ],
+    "mass_kg": [
+      55,
+      95
+    ],
+    "speed_kph": [
+      25,
+      50
+    ]
+  },
+  "draft_factors": [
+    1.0,
+    0.8326081711042577,
+    0.7768132380260022,
+    0.7271994844317398,
+    0.7271994844317398
+  ],
+  "kind": "effective-flat",
+  "linear_law": {
+    "coefficients": [
+      3.0335733333333343,
+      0.9083000000000002
+    ],
+    "family": "mass_linear"
+  },
+  "model_id": "gopher-flat-v1",
+  "provenance": {
+    "calculator_version": "1.39.1",
+    "dataset_sha256": "93e0869b8c27dd6077eac211120682b9819853f20320cfcf1c966bbfd9f976f5",
+    "method": "synthetic fixed-position flat IF readback; no source code copied",
+    "plan_sha256": "fa23435409d09287de2c2ac2937e778abd8d07c1a4aca936a4e889fa92b571b6",
+    "source": "https://zwiftgopher.com/TTT/"
+  },
+  "schema_version": 1,
+  "validation": {
+    "accepted": true,
+    "blind_lead": {
+      "bias_w": -0.008992464596940742,
+      "count": 17,
+      "max_abs_w": 0.26317129629632063,
+      "mean_abs_w": 0.08272296296296217,
+      "rmse_w": 0.10445841316076297
+    },
+    "blind_positions": {
+      "bias_w": -0.00749982781841321,
+      "count": 85,
+      "max_abs_w": 0.25317129629632973,
+      "mean_abs_w": 0.06769411074038437,
+      "rmse_w": 0.08640558256031804
+    },
+    "criterion_max_abs_w": 1.0,
+    "draft_factors_monotone": true,
+    "ftp_invariance_pass": true,
+    "repeatability_pass": true
+  }
+}

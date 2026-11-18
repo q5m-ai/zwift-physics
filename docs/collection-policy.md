@@ -9,8 +9,9 @@
   official API, manual rider inputs, `evaluate_only`, context and usage limits.
   No API key was created or accessed for this milestone.
 - [Privacy policy](https://zwiftgopher.com/TTT/privacy): says JSON exports retain
-  a copy of the plan server-side, with a two-year retention period. Anonymous
-  does not mean unlogged or unretained. Use fictional profiles only.
+  a copy of the plan server-side: the last export per team/race, deleted after
+  two years. Anonymous does not mean unlogged or unretained. Use fictional
+  profiles only.
 - `/robots.txt` returned 404 during preflight. Its absence is not a license or
   authorization to perform unlimited automated requests.
 

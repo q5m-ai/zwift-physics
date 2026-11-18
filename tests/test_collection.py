@@ -68,7 +68,7 @@ class CollectionTests(unittest.TestCase):
         p=plan();p['blind_speeds_kph']=[25]
         with self.assertRaises(ValueError):validate_plan(p)
     def test_json_nonfinite_and_duplicate_fields_refused(self):
-        for value in ['{"x":NaN}','{"x":Infinity}','{"x":1,"x":2}']:
+        for value in ['{"x":NaN}','{"x":Infinity}','{"x":1e999}','{"x":-1e999}','{"x":1,"x":2}']:
             with self.assertRaises(ValueError):loads(value)
 
 

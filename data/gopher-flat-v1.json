@@ -1,0 +1,4476 @@
+{
+  "completed_at": "2026-11-18T15:19:33.123240+00:00",
+  "created_at": "2026-11-18T15:13:58.425123+00:00",
+  "frames": [
+    {
+      "batch_index": 0,
+      "context": {
+        "calculator_version": "1.39.1",
+        "distance_km": 19.59,
+        "efficiency": 0,
+        "efficiency_manual": true,
+        "elevation_m": 31.8,
+        "equipment": "not separately exposed by the web JSON export",
+        "intensity": 0,
+        "laps": 1,
+        "route_name": "Tempus Fugit",
+        "route_signature": "2128890027",
+        "team_size": 5
+      },
+      "observations": [
+        {
+          "flat_if_percent": 17.88,
+          "height_cm": 160,
+          "lead_power_w": 53.64,
+          "mass_kg": 55,
+          "normalization_ftp_w": 300,
+          "position": 1,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 53.64,
+          "profile_id": "m55_h160",
+          "speed_kph": 25,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 16.9,
+          "height_cm": 180,
+          "lead_power_w": 57.67,
+          "mass_kg": 55,
+          "normalization_ftp_w": 300,
+          "position": 2,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 50.7,
+          "profile_id": "m55_h180",
+          "speed_kph": 25,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 17.13,
+          "height_cm": 200,
+          "lead_power_w": 61.55,
+          "mass_kg": 55,
+          "normalization_ftp_w": 300,
+          "position": 3,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 51.39,
+          "profile_id": "m55_h200",
+          "speed_kph": 25,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 17.93,
+          "height_cm": 160,
+          "lead_power_w": 66.05,
+          "mass_kg": 75,
+          "normalization_ftp_w": 300,
+          "position": 4,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 53.79,
+          "profile_id": "m75_h160",
+          "speed_kph": 25,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 19.05,
+          "height_cm": 180,
+          "lead_power_w": 70.68,
+          "mass_kg": 75,
+          "normalization_ftp_w": 300,
+          "position": 5,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 57.15,
+          "profile_id": "m75_h180",
+          "speed_kph": 25,
+          "split": "train"
+        }
+      ],
+      "order": [
+        "m55_h160",
+        "m55_h180",
+        "m55_h200",
+        "m75_h160",
+        "m75_h180"
+      ],
+      "purpose": "calibration",
+      "speed_kph": 25
+    },
+    {
+      "batch_index": 0,
+      "context": {
+        "calculator_version": "1.39.1",
+        "distance_km": 19.59,
+        "efficiency": 0,
+        "efficiency_manual": true,
+        "elevation_m": 31.8,
+        "equipment": "not separately exposed by the web JSON export",
+        "intensity": 0,
+        "laps": 1,
+        "route_name": "Tempus Fugit",
+        "route_signature": "2128890027",
+        "team_size": 5
+      },
+      "observations": [
+        {
+          "flat_if_percent": 111.0,
+          "height_cm": 160,
+          "lead_power_w": 332.99,
+          "mass_kg": 55,
+          "normalization_ftp_w": 300,
+          "position": 1,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 333.0,
+          "profile_id": "m55_h160",
+          "speed_kph": 50,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 103.16,
+          "height_cm": 180,
+          "lead_power_w": 365.24,
+          "mass_kg": 55,
+          "normalization_ftp_w": 300,
+          "position": 2,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 309.48,
+          "profile_id": "m55_h180",
+          "speed_kph": 50,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 105.0,
+          "height_cm": 200,
+          "lead_power_w": 396.28,
+          "mass_kg": 55,
+          "normalization_ftp_w": 300,
+          "position": 3,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 315.0,
+          "profile_id": "m55_h200",
+          "speed_kph": 50,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 101.28,
+          "height_cm": 160,
+          "lead_power_w": 402.02,
+          "mass_kg": 75,
+          "normalization_ftp_w": 300,
+          "position": 4,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 303.84,
+          "profile_id": "m75_h160",
+          "speed_kph": 50,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 110.25,
+          "height_cm": 180,
+          "lead_power_w": 439.0,
+          "mass_kg": 75,
+          "normalization_ftp_w": 300,
+          "position": 5,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 330.75,
+          "profile_id": "m75_h180",
+          "speed_kph": 50,
+          "split": "train"
+        }
+      ],
+      "order": [
+        "m55_h160",
+        "m55_h180",
+        "m55_h200",
+        "m75_h160",
+        "m75_h180"
+      ],
+      "purpose": "calibration",
+      "speed_kph": 50
+    },
+    {
+      "batch_index": 0,
+      "context": {
+        "calculator_version": "1.39.1",
+        "distance_km": 19.59,
+        "efficiency": 0,
+        "efficiency_manual": true,
+        "elevation_m": 31.8,
+        "equipment": "not separately exposed by the web JSON export",
+        "intensity": 0,
+        "laps": 1,
+        "route_name": "Tempus Fugit",
+        "route_signature": "2128890027",
+        "team_size": 5
+      },
+      "observations": [
+        {
+          "flat_if_percent": 59.91,
+          "height_cm": 160,
+          "lead_power_w": 179.72,
+          "mass_kg": 55,
+          "normalization_ftp_w": 300,
+          "position": 1,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 179.73,
+          "profile_id": "m55_h160",
+          "speed_kph": 40,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 55.89,
+          "height_cm": 180,
+          "lead_power_w": 196.23,
+          "mass_kg": 55,
+          "normalization_ftp_w": 300,
+          "position": 2,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 167.67,
+          "profile_id": "m55_h180",
+          "speed_kph": 40,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 56.83,
+          "height_cm": 200,
+          "lead_power_w": 212.13,
+          "mass_kg": 55,
+          "normalization_ftp_w": 300,
+          "position": 3,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 170.49,
+          "profile_id": "m55_h200",
+          "speed_kph": 40,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 55.9,
+          "height_cm": 160,
+          "lead_power_w": 217.97,
+          "mass_kg": 75,
+          "normalization_ftp_w": 300,
+          "position": 4,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 167.7,
+          "profile_id": "m75_h160",
+          "speed_kph": 40,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 60.49,
+          "height_cm": 180,
+          "lead_power_w": 236.9,
+          "mass_kg": 75,
+          "normalization_ftp_w": 300,
+          "position": 5,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 181.47,
+          "profile_id": "m75_h180",
+          "speed_kph": 40,
+          "split": "train"
+        }
+      ],
+      "order": [
+        "m55_h160",
+        "m55_h180",
+        "m55_h200",
+        "m75_h160",
+        "m75_h180"
+      ],
+      "purpose": "calibration",
+      "speed_kph": 40
+    },
+    {
+      "batch_index": 0,
+      "context": {
+        "calculator_version": "1.39.1",
+        "distance_km": 19.59,
+        "efficiency": 0,
+        "efficiency_manual": true,
+        "elevation_m": 31.8,
+        "equipment": "not separately exposed by the web JSON export",
+        "intensity": 0,
+        "laps": 1,
+        "route_name": "Tempus Fugit",
+        "route_signature": "2128890027",
+        "team_size": 5
+      },
+      "observations": [
+        {
+          "flat_if_percent": 19.22,
+          "height_cm": 180,
+          "lead_power_w": 57.67,
+          "mass_kg": 55,
+          "normalization_ftp_w": 300,
+          "position": 1,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 57.66,
+          "profile_id": "m55_h180",
+          "speed_kph": 25,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 17.98,
+          "height_cm": 200,
+          "lead_power_w": 61.55,
+          "mass_kg": 55,
+          "normalization_ftp_w": 300,
+          "position": 2,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 53.94,
+          "profile_id": "m55_h200",
+          "speed_kph": 25,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 18.67,
+          "height_cm": 160,
+          "lead_power_w": 66.05,
+          "mass_kg": 75,
+          "normalization_ftp_w": 300,
+          "position": 3,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 56.01000000000001,
+          "profile_id": "m75_h160",
+          "speed_kph": 25,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 19.05,
+          "height_cm": 180,
+          "lead_power_w": 70.68,
+          "mass_kg": 75,
+          "normalization_ftp_w": 300,
+          "position": 4,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 57.15,
+          "profile_id": "m75_h180",
+          "speed_kph": 25,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 14.46,
+          "height_cm": 160,
+          "lead_power_w": 53.64,
+          "mass_kg": 55,
+          "normalization_ftp_w": 300,
+          "position": 5,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 43.38,
+          "profile_id": "m55_h160",
+          "speed_kph": 25,
+          "split": "train"
+        }
+      ],
+      "order": [
+        "m55_h180",
+        "m55_h200",
+        "m75_h160",
+        "m75_h180",
+        "m55_h160"
+      ],
+      "purpose": "calibration",
+      "speed_kph": 25
+    },
+    {
+      "batch_index": 0,
+      "context": {
+        "calculator_version": "1.39.1",
+        "distance_km": 19.59,
+        "efficiency": 0,
+        "efficiency_manual": true,
+        "elevation_m": 31.8,
+        "equipment": "not separately exposed by the web JSON export",
+        "intensity": 0,
+        "laps": 1,
+        "route_name": "Tempus Fugit",
+        "route_signature": "2128890027",
+        "team_size": 5
+      },
+      "observations": [
+        {
+          "flat_if_percent": 121.75,
+          "height_cm": 180,
+          "lead_power_w": 365.24,
+          "mass_kg": 55,
+          "normalization_ftp_w": 300,
+          "position": 1,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 365.25,
+          "profile_id": "m55_h180",
+          "speed_kph": 50,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 111.77,
+          "height_cm": 200,
+          "lead_power_w": 396.28,
+          "mass_kg": 55,
+          "normalization_ftp_w": 300,
+          "position": 2,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 335.31,
+          "profile_id": "m55_h200",
+          "speed_kph": 50,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 107.23,
+          "height_cm": 160,
+          "lead_power_w": 402.02,
+          "mass_kg": 75,
+          "normalization_ftp_w": 300,
+          "position": 3,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 321.69,
+          "profile_id": "m75_h160",
+          "speed_kph": 50,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 110.25,
+          "height_cm": 180,
+          "lead_power_w": 439.0,
+          "mass_kg": 75,
+          "normalization_ftp_w": 300,
+          "position": 4,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 330.75,
+          "profile_id": "m75_h180",
+          "speed_kph": 50,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 83.63,
+          "height_cm": 160,
+          "lead_power_w": 332.99,
+          "mass_kg": 55,
+          "normalization_ftp_w": 300,
+          "position": 5,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 250.89,
+          "profile_id": "m55_h160",
+          "speed_kph": 50,
+          "split": "train"
+        }
+      ],
+      "order": [
+        "m55_h180",
+        "m55_h200",
+        "m75_h160",
+        "m75_h180",
+        "m55_h160"
+      ],
+      "purpose": "calibration",
+      "speed_kph": 50
+    },
+    {
+      "batch_index": 0,
+      "context": {
+        "calculator_version": "1.39.1",
+        "distance_km": 19.59,
+        "efficiency": 0,
+        "efficiency_manual": true,
+        "elevation_m": 31.8,
+        "equipment": "not separately exposed by the web JSON export",
+        "intensity": 0,
+        "laps": 1,
+        "route_name": "Tempus Fugit",
+        "route_signature": "2128890027",
+        "team_size": 5
+      },
+      "observations": [
+        {
+          "flat_if_percent": 65.41,
+          "height_cm": 180,
+          "lead_power_w": 196.23,
+          "mass_kg": 55,
+          "normalization_ftp_w": 300,
+          "position": 1,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 196.23,
+          "profile_id": "m55_h180",
+          "speed_kph": 40,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 60.3,
+          "height_cm": 200,
+          "lead_power_w": 212.13,
+          "mass_kg": 55,
+          "normalization_ftp_w": 300,
+          "position": 2,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 180.9,
+          "profile_id": "m55_h200",
+          "speed_kph": 40,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 58.95,
+          "height_cm": 160,
+          "lead_power_w": 217.97,
+          "mass_kg": 75,
+          "normalization_ftp_w": 300,
+          "position": 3,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 176.85,
+          "profile_id": "m75_h160",
+          "speed_kph": 40,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 60.49,
+          "height_cm": 180,
+          "lead_power_w": 236.9,
+          "mass_kg": 75,
+          "normalization_ftp_w": 300,
+          "position": 4,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 181.47,
+          "profile_id": "m75_h180",
+          "speed_kph": 40,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 45.9,
+          "height_cm": 160,
+          "lead_power_w": 179.72,
+          "mass_kg": 55,
+          "normalization_ftp_w": 300,
+          "position": 5,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 137.7,
+          "profile_id": "m55_h160",
+          "speed_kph": 40,
+          "split": "train"
+        }
+      ],
+      "order": [
+        "m55_h180",
+        "m55_h200",
+        "m75_h160",
+        "m75_h180",
+        "m55_h160"
+      ],
+      "purpose": "calibration",
+      "speed_kph": 40
+    },
+    {
+      "batch_index": 0,
+      "context": {
+        "calculator_version": "1.39.1",
+        "distance_km": 19.59,
+        "efficiency": 0,
+        "efficiency_manual": true,
+        "elevation_m": 31.8,
+        "equipment": "not separately exposed by the web JSON export",
+        "intensity": 0,
+        "laps": 1,
+        "route_name": "Tempus Fugit",
+        "route_signature": "2128890027",
+        "team_size": 5
+      },
+      "observations": [
+        {
+          "flat_if_percent": 20.52,
+          "height_cm": 200,
+          "lead_power_w": 61.55,
+          "mass_kg": 55,
+          "normalization_ftp_w": 300,
+          "position": 1,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 61.56,
+          "profile_id": "m55_h200",
+          "speed_kph": 25,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 19.51,
+          "height_cm": 160,
+          "lead_power_w": 66.05,
+          "mass_kg": 75,
+          "normalization_ftp_w": 300,
+          "position": 2,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 58.53000000000001,
+          "profile_id": "m75_h160",
+          "speed_kph": 25,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 19.87,
+          "height_cm": 180,
+          "lead_power_w": 70.68,
+          "mass_kg": 75,
+          "normalization_ftp_w": 300,
+          "position": 3,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 59.61,
+          "profile_id": "m75_h180",
+          "speed_kph": 25,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 14.46,
+          "height_cm": 160,
+          "lead_power_w": 53.64,
+          "mass_kg": 55,
+          "normalization_ftp_w": 300,
+          "position": 4,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 43.38,
+          "profile_id": "m55_h160",
+          "speed_kph": 25,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 15.44,
+          "height_cm": 180,
+          "lead_power_w": 57.67,
+          "mass_kg": 55,
+          "normalization_ftp_w": 300,
+          "position": 5,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 46.32,
+          "profile_id": "m55_h180",
+          "speed_kph": 25,
+          "split": "train"
+        }
+      ],
+      "order": [
+        "m55_h200",
+        "m75_h160",
+        "m75_h180",
+        "m55_h160",
+        "m55_h180"
+      ],
+      "purpose": "calibration",
+      "speed_kph": 25
+    },
+    {
+      "batch_index": 0,
+      "context": {
+        "calculator_version": "1.39.1",
+        "distance_km": 19.59,
+        "efficiency": 0,
+        "efficiency_manual": true,
+        "elevation_m": 31.8,
+        "equipment": "not separately exposed by the web JSON export",
+        "intensity": 0,
+        "laps": 1,
+        "route_name": "Tempus Fugit",
+        "route_signature": "2128890027",
+        "team_size": 5
+      },
+      "observations": [
+        {
+          "flat_if_percent": 132.09,
+          "height_cm": 200,
+          "lead_power_w": 396.28,
+          "mass_kg": 55,
+          "normalization_ftp_w": 300,
+          "position": 1,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 396.27,
+          "profile_id": "m55_h200",
+          "speed_kph": 50,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 113.92,
+          "height_cm": 160,
+          "lead_power_w": 402.02,
+          "mass_kg": 75,
+          "normalization_ftp_w": 300,
+          "position": 2,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 341.76,
+          "profile_id": "m75_h160",
+          "speed_kph": 50,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 116.81,
+          "height_cm": 180,
+          "lead_power_w": 439.0,
+          "mass_kg": 75,
+          "normalization_ftp_w": 300,
+          "position": 3,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 350.43,
+          "profile_id": "m75_h180",
+          "speed_kph": 50,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 83.63,
+          "height_cm": 160,
+          "lead_power_w": 332.99,
+          "mass_kg": 55,
+          "normalization_ftp_w": 300,
+          "position": 4,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 250.89,
+          "profile_id": "m55_h160",
+          "speed_kph": 50,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 91.45,
+          "height_cm": 180,
+          "lead_power_w": 365.24,
+          "mass_kg": 55,
+          "normalization_ftp_w": 300,
+          "position": 5,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 274.35,
+          "profile_id": "m55_h180",
+          "speed_kph": 50,
+          "split": "train"
+        }
+      ],
+      "order": [
+        "m55_h200",
+        "m75_h160",
+        "m75_h180",
+        "m55_h160",
+        "m55_h180"
+      ],
+      "purpose": "calibration",
+      "speed_kph": 50
+    },
+    {
+      "batch_index": 0,
+      "context": {
+        "calculator_version": "1.39.1",
+        "distance_km": 19.59,
+        "efficiency": 0,
+        "efficiency_manual": true,
+        "elevation_m": 31.8,
+        "equipment": "not separately exposed by the web JSON export",
+        "intensity": 0,
+        "laps": 1,
+        "route_name": "Tempus Fugit",
+        "route_signature": "2128890027",
+        "team_size": 5
+      },
+      "observations": [
+        {
+          "flat_if_percent": 70.71,
+          "height_cm": 200,
+          "lead_power_w": 212.13,
+          "mass_kg": 55,
+          "normalization_ftp_w": 300,
+          "position": 1,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 212.12999999999997,
+          "profile_id": "m55_h200",
+          "speed_kph": 40,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 62.37,
+          "height_cm": 160,
+          "lead_power_w": 217.97,
+          "mass_kg": 75,
+          "normalization_ftp_w": 300,
+          "position": 2,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 187.11,
+          "profile_id": "m75_h160",
+          "speed_kph": 40,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 63.85,
+          "height_cm": 180,
+          "lead_power_w": 236.9,
+          "mass_kg": 75,
+          "normalization_ftp_w": 300,
+          "position": 3,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 191.55,
+          "profile_id": "m75_h180",
+          "speed_kph": 40,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 45.9,
+          "height_cm": 160,
+          "lead_power_w": 179.72,
+          "mass_kg": 55,
+          "normalization_ftp_w": 300,
+          "position": 4,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 137.7,
+          "profile_id": "m55_h160",
+          "speed_kph": 40,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 49.9,
+          "height_cm": 180,
+          "lead_power_w": 196.23,
+          "mass_kg": 55,
+          "normalization_ftp_w": 300,
+          "position": 5,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 149.7,
+          "profile_id": "m55_h180",
+          "speed_kph": 40,
+          "split": "train"
+        }
+      ],
+      "order": [
+        "m55_h200",
+        "m75_h160",
+        "m75_h180",
+        "m55_h160",
+        "m55_h180"
+      ],
+      "purpose": "calibration",
+      "speed_kph": 40
+    },
+    {
+      "batch_index": 0,
+      "context": {
+        "calculator_version": "1.39.1",
+        "distance_km": 19.59,
+        "efficiency": 0,
+        "efficiency_manual": true,
+        "elevation_m": 31.8,
+        "equipment": "not separately exposed by the web JSON export",
+        "intensity": 0,
+        "laps": 1,
+        "route_name": "Tempus Fugit",
+        "route_signature": "2128890027",
+        "team_size": 5
+      },
+      "observations": [
+        {
+          "flat_if_percent": 22.02,
+          "height_cm": 160,
+          "lead_power_w": 66.05,
+          "mass_kg": 75,
+          "normalization_ftp_w": 300,
+          "position": 1,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 66.06,
+          "profile_id": "m75_h160",
+          "speed_kph": 25,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 20.79,
+          "height_cm": 180,
+          "lead_power_w": 70.68,
+          "mass_kg": 75,
+          "normalization_ftp_w": 300,
+          "position": 2,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 62.37,
+          "profile_id": "m75_h180",
+          "speed_kph": 25,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 15.08,
+          "height_cm": 160,
+          "lead_power_w": 53.64,
+          "mass_kg": 55,
+          "normalization_ftp_w": 300,
+          "position": 3,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 45.24,
+          "profile_id": "m55_h160",
+          "speed_kph": 25,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 15.44,
+          "height_cm": 180,
+          "lead_power_w": 57.67,
+          "mass_kg": 55,
+          "normalization_ftp_w": 300,
+          "position": 4,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 46.32,
+          "profile_id": "m55_h180",
+          "speed_kph": 25,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 16.38,
+          "height_cm": 200,
+          "lead_power_w": 61.55,
+          "mass_kg": 55,
+          "normalization_ftp_w": 300,
+          "position": 5,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 49.14,
+          "profile_id": "m55_h200",
+          "speed_kph": 25,
+          "split": "train"
+        }
+      ],
+      "order": [
+        "m75_h160",
+        "m75_h180",
+        "m55_h160",
+        "m55_h180",
+        "m55_h200"
+      ],
+      "purpose": "calibration",
+      "speed_kph": 25
+    },
+    {
+      "batch_index": 0,
+      "context": {
+        "calculator_version": "1.39.1",
+        "distance_km": 19.59,
+        "efficiency": 0,
+        "efficiency_manual": true,
+        "elevation_m": 31.8,
+        "equipment": "not separately exposed by the web JSON export",
+        "intensity": 0,
+        "laps": 1,
+        "route_name": "Tempus Fugit",
+        "route_signature": "2128890027",
+        "team_size": 5
+      },
+      "observations": [
+        {
+          "flat_if_percent": 134.01,
+          "height_cm": 160,
+          "lead_power_w": 402.02,
+          "mass_kg": 75,
+          "normalization_ftp_w": 300,
+          "position": 1,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 402.03,
+          "profile_id": "m75_h160",
+          "speed_kph": 50,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 124.19,
+          "height_cm": 180,
+          "lead_power_w": 439.0,
+          "mass_kg": 75,
+          "normalization_ftp_w": 300,
+          "position": 2,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 372.57,
+          "profile_id": "m75_h180",
+          "speed_kph": 50,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 88.61,
+          "height_cm": 160,
+          "lead_power_w": 332.99,
+          "mass_kg": 55,
+          "normalization_ftp_w": 300,
+          "position": 3,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 265.83,
+          "profile_id": "m55_h160",
+          "speed_kph": 50,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 91.45,
+          "height_cm": 180,
+          "lead_power_w": 365.24,
+          "mass_kg": 55,
+          "normalization_ftp_w": 300,
+          "position": 4,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 274.35,
+          "profile_id": "m55_h180",
+          "speed_kph": 50,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 98.97,
+          "height_cm": 200,
+          "lead_power_w": 396.28,
+          "mass_kg": 55,
+          "normalization_ftp_w": 300,
+          "position": 5,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 296.91,
+          "profile_id": "m55_h200",
+          "speed_kph": 50,
+          "split": "train"
+        }
+      ],
+      "order": [
+        "m75_h160",
+        "m75_h180",
+        "m55_h160",
+        "m55_h180",
+        "m55_h200"
+      ],
+      "purpose": "calibration",
+      "speed_kph": 50
+    },
+    {
+      "batch_index": 0,
+      "context": {
+        "calculator_version": "1.39.1",
+        "distance_km": 19.59,
+        "efficiency": 0,
+        "efficiency_manual": true,
+        "elevation_m": 31.8,
+        "equipment": "not separately exposed by the web JSON export",
+        "intensity": 0,
+        "laps": 1,
+        "route_name": "Tempus Fugit",
+        "route_signature": "2128890027",
+        "team_size": 5
+      },
+      "observations": [
+        {
+          "flat_if_percent": 72.66,
+          "height_cm": 160,
+          "lead_power_w": 217.97,
+          "mass_kg": 75,
+          "normalization_ftp_w": 300,
+          "position": 1,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 217.98,
+          "profile_id": "m75_h160",
+          "speed_kph": 40,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 67.63,
+          "height_cm": 180,
+          "lead_power_w": 236.9,
+          "mass_kg": 75,
+          "normalization_ftp_w": 300,
+          "position": 2,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 202.89,
+          "profile_id": "m75_h180",
+          "speed_kph": 40,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 48.44,
+          "height_cm": 160,
+          "lead_power_w": 179.72,
+          "mass_kg": 55,
+          "normalization_ftp_w": 300,
+          "position": 3,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 145.32,
+          "profile_id": "m55_h160",
+          "speed_kph": 40,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 49.9,
+          "height_cm": 180,
+          "lead_power_w": 196.23,
+          "mass_kg": 55,
+          "normalization_ftp_w": 300,
+          "position": 4,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 149.7,
+          "profile_id": "m55_h180",
+          "speed_kph": 40,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 53.75,
+          "height_cm": 200,
+          "lead_power_w": 212.13,
+          "mass_kg": 55,
+          "normalization_ftp_w": 300,
+          "position": 5,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 161.25,
+          "profile_id": "m55_h200",
+          "speed_kph": 40,
+          "split": "train"
+        }
+      ],
+      "order": [
+        "m75_h160",
+        "m75_h180",
+        "m55_h160",
+        "m55_h180",
+        "m55_h200"
+      ],
+      "purpose": "calibration",
+      "speed_kph": 40
+    },
+    {
+      "batch_index": 0,
+      "context": {
+        "calculator_version": "1.39.1",
+        "distance_km": 19.59,
+        "efficiency": 0,
+        "efficiency_manual": true,
+        "elevation_m": 31.8,
+        "equipment": "not separately exposed by the web JSON export",
+        "intensity": 0,
+        "laps": 1,
+        "route_name": "Tempus Fugit",
+        "route_signature": "2128890027",
+        "team_size": 5
+      },
+      "observations": [
+        {
+          "flat_if_percent": 23.56,
+          "height_cm": 180,
+          "lead_power_w": 70.68,
+          "mass_kg": 75,
+          "normalization_ftp_w": 300,
+          "position": 1,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 70.68,
+          "profile_id": "m75_h180",
+          "speed_kph": 25,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 15.78,
+          "height_cm": 160,
+          "lead_power_w": 53.64,
+          "mass_kg": 55,
+          "normalization_ftp_w": 300,
+          "position": 2,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 47.34,
+          "profile_id": "m55_h160",
+          "speed_kph": 25,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 16.13,
+          "height_cm": 180,
+          "lead_power_w": 57.67,
+          "mass_kg": 55,
+          "normalization_ftp_w": 300,
+          "position": 3,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 48.39,
+          "profile_id": "m55_h180",
+          "speed_kph": 25,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 16.38,
+          "height_cm": 200,
+          "lead_power_w": 61.55,
+          "mass_kg": 55,
+          "normalization_ftp_w": 300,
+          "position": 4,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 49.14,
+          "profile_id": "m55_h200",
+          "speed_kph": 25,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 17.93,
+          "height_cm": 160,
+          "lead_power_w": 66.05,
+          "mass_kg": 75,
+          "normalization_ftp_w": 300,
+          "position": 5,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 53.79,
+          "profile_id": "m75_h160",
+          "speed_kph": 25,
+          "split": "train"
+        }
+      ],
+      "order": [
+        "m75_h180",
+        "m55_h160",
+        "m55_h180",
+        "m55_h200",
+        "m75_h160"
+      ],
+      "purpose": "calibration",
+      "speed_kph": 25
+    },
+    {
+      "batch_index": 0,
+      "context": {
+        "calculator_version": "1.39.1",
+        "distance_km": 19.59,
+        "efficiency": 0,
+        "efficiency_manual": true,
+        "elevation_m": 31.8,
+        "equipment": "not separately exposed by the web JSON export",
+        "intensity": 0,
+        "laps": 1,
+        "route_name": "Tempus Fugit",
+        "route_signature": "2128890027",
+        "team_size": 5
+      },
+      "observations": [
+        {
+          "flat_if_percent": 146.33,
+          "height_cm": 180,
+          "lead_power_w": 439.0,
+          "mass_kg": 75,
+          "normalization_ftp_w": 300,
+          "position": 1,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 438.99000000000007,
+          "profile_id": "m75_h180",
+          "speed_kph": 50,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 94.2,
+          "height_cm": 160,
+          "lead_power_w": 332.99,
+          "mass_kg": 55,
+          "normalization_ftp_w": 300,
+          "position": 2,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 282.6,
+          "profile_id": "m55_h160",
+          "speed_kph": 50,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 96.96,
+          "height_cm": 180,
+          "lead_power_w": 365.24,
+          "mass_kg": 55,
+          "normalization_ftp_w": 300,
+          "position": 3,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 290.87999999999994,
+          "profile_id": "m55_h180",
+          "speed_kph": 50,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 98.97,
+          "height_cm": 200,
+          "lead_power_w": 396.28,
+          "mass_kg": 55,
+          "normalization_ftp_w": 300,
+          "position": 4,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 296.91,
+          "profile_id": "m55_h200",
+          "speed_kph": 50,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 101.28,
+          "height_cm": 160,
+          "lead_power_w": 402.02,
+          "mass_kg": 75,
+          "normalization_ftp_w": 300,
+          "position": 5,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 303.84,
+          "profile_id": "m75_h160",
+          "speed_kph": 50,
+          "split": "train"
+        }
+      ],
+      "order": [
+        "m75_h180",
+        "m55_h160",
+        "m55_h180",
+        "m55_h200",
+        "m75_h160"
+      ],
+      "purpose": "calibration",
+      "speed_kph": 50
+    },
+    {
+      "batch_index": 0,
+      "context": {
+        "calculator_version": "1.39.1",
+        "distance_km": 19.59,
+        "efficiency": 0,
+        "efficiency_manual": true,
+        "elevation_m": 31.8,
+        "equipment": "not separately exposed by the web JSON export",
+        "intensity": 0,
+        "laps": 1,
+        "route_name": "Tempus Fugit",
+        "route_signature": "2128890027",
+        "team_size": 5
+      },
+      "observations": [
+        {
+          "flat_if_percent": 78.97,
+          "height_cm": 180,
+          "lead_power_w": 236.9,
+          "mass_kg": 75,
+          "normalization_ftp_w": 300,
+          "position": 1,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 236.91,
+          "profile_id": "m75_h180",
+          "speed_kph": 40,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 51.31,
+          "height_cm": 160,
+          "lead_power_w": 179.72,
+          "mass_kg": 55,
+          "normalization_ftp_w": 300,
+          "position": 2,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 153.93,
+          "profile_id": "m55_h160",
+          "speed_kph": 40,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 52.72,
+          "height_cm": 180,
+          "lead_power_w": 196.23,
+          "mass_kg": 55,
+          "normalization_ftp_w": 300,
+          "position": 3,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 158.16,
+          "profile_id": "m55_h180",
+          "speed_kph": 40,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 53.75,
+          "height_cm": 200,
+          "lead_power_w": 212.13,
+          "mass_kg": 55,
+          "normalization_ftp_w": 300,
+          "position": 4,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 161.25,
+          "profile_id": "m55_h200",
+          "speed_kph": 40,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 55.9,
+          "height_cm": 160,
+          "lead_power_w": 217.97,
+          "mass_kg": 75,
+          "normalization_ftp_w": 300,
+          "position": 5,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 167.7,
+          "profile_id": "m75_h160",
+          "speed_kph": 40,
+          "split": "train"
+        }
+      ],
+      "order": [
+        "m75_h180",
+        "m55_h160",
+        "m55_h180",
+        "m55_h200",
+        "m75_h160"
+      ],
+      "purpose": "calibration",
+      "speed_kph": 40
+    },
+    {
+      "batch_index": 1,
+      "context": {
+        "calculator_version": "1.39.1",
+        "distance_km": 19.59,
+        "efficiency": 0,
+        "efficiency_manual": true,
+        "elevation_m": 31.8,
+        "equipment": "not separately exposed by the web JSON export",
+        "intensity": 0,
+        "laps": 1,
+        "route_name": "Tempus Fugit",
+        "route_signature": "2128890027",
+        "team_size": 5
+      },
+      "observations": [
+        {
+          "flat_if_percent": 25.04,
+          "height_cm": 200,
+          "lead_power_w": 75.12,
+          "mass_kg": 75,
+          "normalization_ftp_w": 300,
+          "position": 1,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 75.12,
+          "profile_id": "m75_h200",
+          "speed_kph": 25,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 22.95,
+          "height_cm": 160,
+          "lead_power_w": 77.43,
+          "mass_kg": 95,
+          "normalization_ftp_w": 300,
+          "position": 2,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 68.85,
+          "profile_id": "m95_h160",
+          "speed_kph": 25,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 23.32,
+          "height_cm": 180,
+          "lead_power_w": 82.56,
+          "mass_kg": 95,
+          "normalization_ftp_w": 300,
+          "position": 3,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 69.96,
+          "profile_id": "m95_h180",
+          "speed_kph": 25,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 23.58,
+          "height_cm": 200,
+          "lead_power_w": 87.5,
+          "mass_kg": 95,
+          "normalization_ftp_w": 300,
+          "position": 4,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 70.74,
+          "profile_id": "m95_h200",
+          "speed_kph": 25,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 16.76,
+          "height_cm": 170,
+          "lead_power_w": 62.2,
+          "mass_kg": 65,
+          "normalization_ftp_w": 300,
+          "position": 5,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 50.28000000000001,
+          "profile_id": "m65_h170",
+          "speed_kph": 25,
+          "split": "selection"
+        }
+      ],
+      "order": [
+        "m75_h200",
+        "m95_h160",
+        "m95_h180",
+        "m95_h200",
+        "m65_h170"
+      ],
+      "purpose": "calibration",
+      "speed_kph": 25
+    },
+    {
+      "batch_index": 1,
+      "context": {
+        "calculator_version": "1.39.1",
+        "distance_km": 19.59,
+        "efficiency": 0,
+        "efficiency_manual": true,
+        "elevation_m": 31.8,
+        "equipment": "not separately exposed by the web JSON export",
+        "intensity": 0,
+        "laps": 1,
+        "route_name": "Tempus Fugit",
+        "route_signature": "2128890027",
+        "team_size": 5
+      },
+      "observations": [
+        {
+          "flat_if_percent": 158.2,
+          "height_cm": 200,
+          "lead_power_w": 474.59,
+          "mass_kg": 75,
+          "normalization_ftp_w": 300,
+          "position": 1,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 474.6,
+          "profile_id": "m75_h200",
+          "speed_kph": 50,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 131.35,
+          "height_cm": 160,
+          "lead_power_w": 462.77,
+          "mass_kg": 95,
+          "normalization_ftp_w": 300,
+          "position": 2,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 394.05,
+          "profile_id": "m95_h160",
+          "speed_kph": 50,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 134.34,
+          "height_cm": 180,
+          "lead_power_w": 503.81,
+          "mass_kg": 95,
+          "normalization_ftp_w": 300,
+          "position": 3,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 403.02,
+          "profile_id": "m95_h180",
+          "speed_kph": 50,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 136.45,
+          "height_cm": 200,
+          "lead_power_w": 543.31,
+          "mass_kg": 95,
+          "normalization_ftp_w": 300,
+          "position": 4,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 409.35,
+          "profile_id": "m95_h200",
+          "speed_kph": 50,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 97.02,
+          "height_cm": 170,
+          "lead_power_w": 386.31,
+          "mass_kg": 65,
+          "normalization_ftp_w": 300,
+          "position": 5,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 291.06,
+          "profile_id": "m65_h170",
+          "speed_kph": 50,
+          "split": "selection"
+        }
+      ],
+      "order": [
+        "m75_h200",
+        "m95_h160",
+        "m95_h180",
+        "m95_h200",
+        "m65_h170"
+      ],
+      "purpose": "calibration",
+      "speed_kph": 50
+    },
+    {
+      "batch_index": 1,
+      "context": {
+        "calculator_version": "1.39.1",
+        "distance_km": 19.59,
+        "efficiency": 0,
+        "efficiency_manual": true,
+        "elevation_m": 31.8,
+        "equipment": "not separately exposed by the web JSON export",
+        "intensity": 0,
+        "laps": 1,
+        "route_name": "Tempus Fugit",
+        "route_signature": "2128890027",
+        "team_size": 5
+      },
+      "observations": [
+        {
+          "flat_if_percent": 85.04,
+          "height_cm": 200,
+          "lead_power_w": 255.13,
+          "mass_kg": 75,
+          "normalization_ftp_w": 300,
+          "position": 1,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 255.12000000000003,
+          "profile_id": "m75_h200",
+          "speed_kph": 40,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 72.26,
+          "height_cm": 160,
+          "lead_power_w": 251.98,
+          "mass_kg": 95,
+          "normalization_ftp_w": 300,
+          "position": 2,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 216.78,
+          "profile_id": "m95_h160",
+          "speed_kph": 40,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 73.79,
+          "height_cm": 180,
+          "lead_power_w": 272.99,
+          "mass_kg": 95,
+          "normalization_ftp_w": 300,
+          "position": 3,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 221.37000000000003,
+          "profile_id": "m95_h180",
+          "speed_kph": 40,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 74.87,
+          "height_cm": 200,
+          "lead_power_w": 293.22,
+          "mass_kg": 95,
+          "normalization_ftp_w": 300,
+          "position": 4,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 224.61,
+          "profile_id": "m95_h200",
+          "speed_kph": 40,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 53.23,
+          "height_cm": 170,
+          "lead_power_w": 208.47,
+          "mass_kg": 65,
+          "normalization_ftp_w": 300,
+          "position": 5,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 159.68999999999997,
+          "profile_id": "m65_h170",
+          "speed_kph": 40,
+          "split": "selection"
+        }
+      ],
+      "order": [
+        "m75_h200",
+        "m95_h160",
+        "m95_h180",
+        "m95_h200",
+        "m65_h170"
+      ],
+      "purpose": "calibration",
+      "speed_kph": 40
+    },
+    {
+      "batch_index": 1,
+      "context": {
+        "calculator_version": "1.39.1",
+        "distance_km": 19.59,
+        "efficiency": 0,
+        "efficiency_manual": true,
+        "elevation_m": 31.8,
+        "equipment": "not separately exposed by the web JSON export",
+        "intensity": 0,
+        "laps": 1,
+        "route_name": "Tempus Fugit",
+        "route_signature": "2128890027",
+        "team_size": 5
+      },
+      "observations": [
+        {
+          "flat_if_percent": 25.81,
+          "height_cm": 160,
+          "lead_power_w": 77.43,
+          "mass_kg": 95,
+          "normalization_ftp_w": 300,
+          "position": 1,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 77.43,
+          "profile_id": "m95_h160",
+          "speed_kph": 25,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 24.37,
+          "height_cm": 180,
+          "lead_power_w": 82.56,
+          "mass_kg": 95,
+          "normalization_ftp_w": 300,
+          "position": 2,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 73.11,
+          "profile_id": "m95_h180",
+          "speed_kph": 25,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 24.6,
+          "height_cm": 200,
+          "lead_power_w": 87.5,
+          "mass_kg": 95,
+          "normalization_ftp_w": 300,
+          "position": 3,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 73.8,
+          "profile_id": "m95_h200",
+          "speed_kph": 25,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 16.76,
+          "height_cm": 170,
+          "lead_power_w": 62.2,
+          "mass_kg": 65,
+          "normalization_ftp_w": 300,
+          "position": 4,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 50.28000000000001,
+          "profile_id": "m65_h170",
+          "speed_kph": 25,
+          "split": "selection"
+        },
+        {
+          "flat_if_percent": 20.13,
+          "height_cm": 200,
+          "lead_power_w": 75.12,
+          "mass_kg": 75,
+          "normalization_ftp_w": 300,
+          "position": 5,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 60.39,
+          "profile_id": "m75_h200",
+          "speed_kph": 25,
+          "split": "train"
+        }
+      ],
+      "order": [
+        "m95_h160",
+        "m95_h180",
+        "m95_h200",
+        "m65_h170",
+        "m75_h200"
+      ],
+      "purpose": "calibration",
+      "speed_kph": 25
+    },
+    {
+      "batch_index": 1,
+      "context": {
+        "calculator_version": "1.39.1",
+        "distance_km": 19.59,
+        "efficiency": 0,
+        "efficiency_manual": true,
+        "elevation_m": 31.8,
+        "equipment": "not separately exposed by the web JSON export",
+        "intensity": 0,
+        "laps": 1,
+        "route_name": "Tempus Fugit",
+        "route_signature": "2128890027",
+        "team_size": 5
+      },
+      "observations": [
+        {
+          "flat_if_percent": 154.26,
+          "height_cm": 160,
+          "lead_power_w": 462.77,
+          "mass_kg": 95,
+          "normalization_ftp_w": 300,
+          "position": 1,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 462.78,
+          "profile_id": "m95_h160",
+          "speed_kph": 50,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 142.74,
+          "height_cm": 180,
+          "lead_power_w": 503.81,
+          "mass_kg": 95,
+          "normalization_ftp_w": 300,
+          "position": 2,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 428.22,
+          "profile_id": "m95_h180",
+          "speed_kph": 50,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 144.57,
+          "height_cm": 200,
+          "lead_power_w": 543.31,
+          "mass_kg": 95,
+          "normalization_ftp_w": 300,
+          "position": 3,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 433.71,
+          "profile_id": "m95_h200",
+          "speed_kph": 50,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 97.02,
+          "height_cm": 170,
+          "lead_power_w": 386.31,
+          "mass_kg": 65,
+          "normalization_ftp_w": 300,
+          "position": 4,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 291.06,
+          "profile_id": "m65_h170",
+          "speed_kph": 50,
+          "split": "selection"
+        },
+        {
+          "flat_if_percent": 118.87,
+          "height_cm": 200,
+          "lead_power_w": 474.59,
+          "mass_kg": 75,
+          "normalization_ftp_w": 300,
+          "position": 5,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 356.61,
+          "profile_id": "m75_h200",
+          "speed_kph": 50,
+          "split": "train"
+        }
+      ],
+      "order": [
+        "m95_h160",
+        "m95_h180",
+        "m95_h200",
+        "m65_h170",
+        "m75_h200"
+      ],
+      "purpose": "calibration",
+      "speed_kph": 50
+    },
+    {
+      "batch_index": 1,
+      "context": {
+        "calculator_version": "1.39.1",
+        "distance_km": 19.59,
+        "efficiency": 0,
+        "efficiency_manual": true,
+        "elevation_m": 31.8,
+        "equipment": "not separately exposed by the web JSON export",
+        "intensity": 0,
+        "laps": 1,
+        "route_name": "Tempus Fugit",
+        "route_signature": "2128890027",
+        "team_size": 5
+      },
+      "observations": [
+        {
+          "flat_if_percent": 83.99,
+          "height_cm": 160,
+          "lead_power_w": 251.98,
+          "mass_kg": 95,
+          "normalization_ftp_w": 300,
+          "position": 1,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 251.97,
+          "profile_id": "m95_h160",
+          "speed_kph": 40,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 78.1,
+          "height_cm": 180,
+          "lead_power_w": 272.99,
+          "mass_kg": 95,
+          "normalization_ftp_w": 300,
+          "position": 2,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 234.3,
+          "profile_id": "m95_h180",
+          "speed_kph": 40,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 79.03,
+          "height_cm": 200,
+          "lead_power_w": 293.22,
+          "mass_kg": 95,
+          "normalization_ftp_w": 300,
+          "position": 3,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 237.09,
+          "profile_id": "m95_h200",
+          "speed_kph": 40,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 53.23,
+          "height_cm": 170,
+          "lead_power_w": 208.47,
+          "mass_kg": 65,
+          "normalization_ftp_w": 300,
+          "position": 4,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 159.68999999999997,
+          "profile_id": "m65_h170",
+          "speed_kph": 40,
+          "split": "selection"
+        },
+        {
+          "flat_if_percent": 64.91,
+          "height_cm": 200,
+          "lead_power_w": 255.13,
+          "mass_kg": 75,
+          "normalization_ftp_w": 300,
+          "position": 5,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 194.73,
+          "profile_id": "m75_h200",
+          "speed_kph": 40,
+          "split": "train"
+        }
+      ],
+      "order": [
+        "m95_h160",
+        "m95_h180",
+        "m95_h200",
+        "m65_h170",
+        "m75_h200"
+      ],
+      "purpose": "calibration",
+      "speed_kph": 40
+    },
+    {
+      "batch_index": 1,
+      "context": {
+        "calculator_version": "1.39.1",
+        "distance_km": 19.59,
+        "efficiency": 0,
+        "efficiency_manual": true,
+        "elevation_m": 31.8,
+        "equipment": "not separately exposed by the web JSON export",
+        "intensity": 0,
+        "laps": 1,
+        "route_name": "Tempus Fugit",
+        "route_signature": "2128890027",
+        "team_size": 5
+      },
+      "observations": [
+        {
+          "flat_if_percent": 27.52,
+          "height_cm": 180,
+          "lead_power_w": 82.56,
+          "mass_kg": 95,
+          "normalization_ftp_w": 300,
+          "position": 1,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 82.56,
+          "profile_id": "m95_h180",
+          "speed_kph": 25,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 25.74,
+          "height_cm": 200,
+          "lead_power_w": 87.5,
+          "mass_kg": 95,
+          "normalization_ftp_w": 300,
+          "position": 2,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 77.21999999999998,
+          "profile_id": "m95_h200",
+          "speed_kph": 25,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 17.49,
+          "height_cm": 170,
+          "lead_power_w": 62.2,
+          "mass_kg": 65,
+          "normalization_ftp_w": 300,
+          "position": 3,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 52.46999999999999,
+          "profile_id": "m65_h170",
+          "speed_kph": 25,
+          "split": "selection"
+        },
+        {
+          "flat_if_percent": 20.13,
+          "height_cm": 200,
+          "lead_power_w": 75.12,
+          "mass_kg": 75,
+          "normalization_ftp_w": 300,
+          "position": 4,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 60.39,
+          "profile_id": "m75_h200",
+          "speed_kph": 25,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 21.14,
+          "height_cm": 160,
+          "lead_power_w": 77.43,
+          "mass_kg": 95,
+          "normalization_ftp_w": 300,
+          "position": 5,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 63.42,
+          "profile_id": "m95_h160",
+          "speed_kph": 25,
+          "split": "train"
+        }
+      ],
+      "order": [
+        "m95_h180",
+        "m95_h200",
+        "m65_h170",
+        "m75_h200",
+        "m95_h160"
+      ],
+      "purpose": "calibration",
+      "speed_kph": 25
+    },
+    {
+      "batch_index": 1,
+      "context": {
+        "calculator_version": "1.39.1",
+        "distance_km": 19.59,
+        "efficiency": 0,
+        "efficiency_manual": true,
+        "elevation_m": 31.8,
+        "equipment": "not separately exposed by the web JSON export",
+        "intensity": 0,
+        "laps": 1,
+        "route_name": "Tempus Fugit",
+        "route_signature": "2128890027",
+        "team_size": 5
+      },
+      "observations": [
+        {
+          "flat_if_percent": 167.94,
+          "height_cm": 180,
+          "lead_power_w": 503.81,
+          "mass_kg": 95,
+          "normalization_ftp_w": 300,
+          "position": 1,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 503.82,
+          "profile_id": "m95_h180",
+          "speed_kph": 50,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 153.7,
+          "height_cm": 200,
+          "lead_power_w": 543.31,
+          "mass_kg": 95,
+          "normalization_ftp_w": 300,
+          "position": 2,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 461.1,
+          "profile_id": "m95_h200",
+          "speed_kph": 50,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 102.79,
+          "height_cm": 170,
+          "lead_power_w": 386.31,
+          "mass_kg": 65,
+          "normalization_ftp_w": 300,
+          "position": 3,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 308.37000000000006,
+          "profile_id": "m65_h170",
+          "speed_kph": 50,
+          "split": "selection"
+        },
+        {
+          "flat_if_percent": 118.87,
+          "height_cm": 200,
+          "lead_power_w": 474.59,
+          "mass_kg": 75,
+          "normalization_ftp_w": 300,
+          "position": 4,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 356.61,
+          "profile_id": "m75_h200",
+          "speed_kph": 50,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 116.92,
+          "height_cm": 160,
+          "lead_power_w": 462.77,
+          "mass_kg": 95,
+          "normalization_ftp_w": 300,
+          "position": 5,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 350.76,
+          "profile_id": "m95_h160",
+          "speed_kph": 50,
+          "split": "train"
+        }
+      ],
+      "order": [
+        "m95_h180",
+        "m95_h200",
+        "m65_h170",
+        "m75_h200",
+        "m95_h160"
+      ],
+      "purpose": "calibration",
+      "speed_kph": 50
+    },
+    {
+      "batch_index": 1,
+      "context": {
+        "calculator_version": "1.39.1",
+        "distance_km": 19.59,
+        "efficiency": 0,
+        "efficiency_manual": true,
+        "elevation_m": 31.8,
+        "equipment": "not separately exposed by the web JSON export",
+        "intensity": 0,
+        "laps": 1,
+        "route_name": "Tempus Fugit",
+        "route_signature": "2128890027",
+        "team_size": 5
+      },
+      "observations": [
+        {
+          "flat_if_percent": 91.0,
+          "height_cm": 180,
+          "lead_power_w": 272.99,
+          "mass_kg": 95,
+          "normalization_ftp_w": 300,
+          "position": 1,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 273.0,
+          "profile_id": "m95_h180",
+          "speed_kph": 40,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 83.71,
+          "height_cm": 200,
+          "lead_power_w": 293.22,
+          "mass_kg": 95,
+          "normalization_ftp_w": 300,
+          "position": 2,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 251.12999999999997,
+          "profile_id": "m95_h200",
+          "speed_kph": 40,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 56.19,
+          "height_cm": 170,
+          "lead_power_w": 208.47,
+          "mass_kg": 65,
+          "normalization_ftp_w": 300,
+          "position": 3,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 168.57,
+          "profile_id": "m65_h170",
+          "speed_kph": 40,
+          "split": "selection"
+        },
+        {
+          "flat_if_percent": 64.91,
+          "height_cm": 200,
+          "lead_power_w": 255.13,
+          "mass_kg": 75,
+          "normalization_ftp_w": 300,
+          "position": 4,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 194.73,
+          "profile_id": "m75_h200",
+          "speed_kph": 40,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 64.88,
+          "height_cm": 160,
+          "lead_power_w": 251.98,
+          "mass_kg": 95,
+          "normalization_ftp_w": 300,
+          "position": 5,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 194.64,
+          "profile_id": "m95_h160",
+          "speed_kph": 40,
+          "split": "train"
+        }
+      ],
+      "order": [
+        "m95_h180",
+        "m95_h200",
+        "m65_h170",
+        "m75_h200",
+        "m95_h160"
+      ],
+      "purpose": "calibration",
+      "speed_kph": 40
+    },
+    {
+      "batch_index": 1,
+      "context": {
+        "calculator_version": "1.39.1",
+        "distance_km": 19.59,
+        "efficiency": 0,
+        "efficiency_manual": true,
+        "elevation_m": 31.8,
+        "equipment": "not separately exposed by the web JSON export",
+        "intensity": 0,
+        "laps": 1,
+        "route_name": "Tempus Fugit",
+        "route_signature": "2128890027",
+        "team_size": 5
+      },
+      "observations": [
+        {
+          "flat_if_percent": 29.17,
+          "height_cm": 200,
+          "lead_power_w": 87.5,
+          "mass_kg": 95,
+          "normalization_ftp_w": 300,
+          "position": 1,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 87.51,
+          "profile_id": "m95_h200",
+          "speed_kph": 25,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 18.3,
+          "height_cm": 170,
+          "lead_power_w": 62.2,
+          "mass_kg": 65,
+          "normalization_ftp_w": 300,
+          "position": 2,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 54.9,
+          "profile_id": "m65_h170",
+          "speed_kph": 25,
+          "split": "selection"
+        },
+        {
+          "flat_if_percent": 21.02,
+          "height_cm": 200,
+          "lead_power_w": 75.12,
+          "mass_kg": 75,
+          "normalization_ftp_w": 300,
+          "position": 3,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 63.06,
+          "profile_id": "m75_h200",
+          "speed_kph": 25,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 21.14,
+          "height_cm": 160,
+          "lead_power_w": 77.43,
+          "mass_kg": 95,
+          "normalization_ftp_w": 300,
+          "position": 4,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 63.42,
+          "profile_id": "m95_h160",
+          "speed_kph": 25,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 22.39,
+          "height_cm": 180,
+          "lead_power_w": 82.56,
+          "mass_kg": 95,
+          "normalization_ftp_w": 300,
+          "position": 5,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 67.17,
+          "profile_id": "m95_h180",
+          "speed_kph": 25,
+          "split": "train"
+        }
+      ],
+      "order": [
+        "m95_h200",
+        "m65_h170",
+        "m75_h200",
+        "m95_h160",
+        "m95_h180"
+      ],
+      "purpose": "calibration",
+      "speed_kph": 25
+    },
+    {
+      "batch_index": 1,
+      "context": {
+        "calculator_version": "1.39.1",
+        "distance_km": 19.59,
+        "efficiency": 0,
+        "efficiency_manual": true,
+        "elevation_m": 31.8,
+        "equipment": "not separately exposed by the web JSON export",
+        "intensity": 0,
+        "laps": 1,
+        "route_name": "Tempus Fugit",
+        "route_signature": "2128890027",
+        "team_size": 5
+      },
+      "observations": [
+        {
+          "flat_if_percent": 181.1,
+          "height_cm": 200,
+          "lead_power_w": 543.31,
+          "mass_kg": 95,
+          "normalization_ftp_w": 300,
+          "position": 1,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 543.3,
+          "profile_id": "m95_h200",
+          "speed_kph": 50,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 109.28,
+          "height_cm": 170,
+          "lead_power_w": 386.31,
+          "mass_kg": 65,
+          "normalization_ftp_w": 300,
+          "position": 2,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 327.84,
+          "profile_id": "m65_h170",
+          "speed_kph": 50,
+          "split": "selection"
+        },
+        {
+          "flat_if_percent": 126.02,
+          "height_cm": 200,
+          "lead_power_w": 474.59,
+          "mass_kg": 75,
+          "normalization_ftp_w": 300,
+          "position": 3,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 378.06,
+          "profile_id": "m75_h200",
+          "speed_kph": 50,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 116.92,
+          "height_cm": 160,
+          "lead_power_w": 462.77,
+          "mass_kg": 95,
+          "normalization_ftp_w": 300,
+          "position": 4,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 350.76,
+          "profile_id": "m95_h160",
+          "speed_kph": 50,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 126.87,
+          "height_cm": 180,
+          "lead_power_w": 503.81,
+          "mass_kg": 95,
+          "normalization_ftp_w": 300,
+          "position": 5,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 380.61,
+          "profile_id": "m95_h180",
+          "speed_kph": 50,
+          "split": "train"
+        }
+      ],
+      "order": [
+        "m95_h200",
+        "m65_h170",
+        "m75_h200",
+        "m95_h160",
+        "m95_h180"
+      ],
+      "purpose": "calibration",
+      "speed_kph": 50
+    },
+    {
+      "batch_index": 1,
+      "context": {
+        "calculator_version": "1.39.1",
+        "distance_km": 19.59,
+        "efficiency": 0,
+        "efficiency_manual": true,
+        "elevation_m": 31.8,
+        "equipment": "not separately exposed by the web JSON export",
+        "intensity": 0,
+        "laps": 1,
+        "route_name": "Tempus Fugit",
+        "route_signature": "2128890027",
+        "team_size": 5
+      },
+      "observations": [
+        {
+          "flat_if_percent": 97.74,
+          "height_cm": 200,
+          "lead_power_w": 293.22,
+          "mass_kg": 95,
+          "normalization_ftp_w": 300,
+          "position": 1,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 293.22,
+          "profile_id": "m95_h200",
+          "speed_kph": 40,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 59.51,
+          "height_cm": 170,
+          "lead_power_w": 208.47,
+          "mass_kg": 65,
+          "normalization_ftp_w": 300,
+          "position": 2,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 178.53,
+          "profile_id": "m65_h170",
+          "speed_kph": 40,
+          "split": "selection"
+        },
+        {
+          "flat_if_percent": 68.57,
+          "height_cm": 200,
+          "lead_power_w": 255.13,
+          "mass_kg": 75,
+          "normalization_ftp_w": 300,
+          "position": 3,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 205.70999999999995,
+          "profile_id": "m75_h200",
+          "speed_kph": 40,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 64.88,
+          "height_cm": 160,
+          "lead_power_w": 251.98,
+          "mass_kg": 95,
+          "normalization_ftp_w": 300,
+          "position": 4,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 194.64,
+          "profile_id": "m95_h160",
+          "speed_kph": 40,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 69.97,
+          "height_cm": 180,
+          "lead_power_w": 272.99,
+          "mass_kg": 95,
+          "normalization_ftp_w": 300,
+          "position": 5,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 209.91,
+          "profile_id": "m95_h180",
+          "speed_kph": 40,
+          "split": "train"
+        }
+      ],
+      "order": [
+        "m95_h200",
+        "m65_h170",
+        "m75_h200",
+        "m95_h160",
+        "m95_h180"
+      ],
+      "purpose": "calibration",
+      "speed_kph": 40
+    },
+    {
+      "batch_index": 1,
+      "context": {
+        "calculator_version": "1.39.1",
+        "distance_km": 19.59,
+        "efficiency": 0,
+        "efficiency_manual": true,
+        "elevation_m": 31.8,
+        "equipment": "not separately exposed by the web JSON export",
+        "intensity": 0,
+        "laps": 1,
+        "route_name": "Tempus Fugit",
+        "route_signature": "2128890027",
+        "team_size": 5
+      },
+      "observations": [
+        {
+          "flat_if_percent": 20.73,
+          "height_cm": 170,
+          "lead_power_w": 62.2,
+          "mass_kg": 65,
+          "normalization_ftp_w": 300,
+          "position": 1,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 62.19,
+          "profile_id": "m65_h170",
+          "speed_kph": 25,
+          "split": "selection"
+        },
+        {
+          "flat_if_percent": 22.03,
+          "height_cm": 200,
+          "lead_power_w": 75.12,
+          "mass_kg": 75,
+          "normalization_ftp_w": 300,
+          "position": 2,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 66.09,
+          "profile_id": "m75_h200",
+          "speed_kph": 25,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 21.99,
+          "height_cm": 160,
+          "lead_power_w": 77.43,
+          "mass_kg": 95,
+          "normalization_ftp_w": 300,
+          "position": 3,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 65.96999999999998,
+          "profile_id": "m95_h160",
+          "speed_kph": 25,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 22.39,
+          "height_cm": 180,
+          "lead_power_w": 82.56,
+          "mass_kg": 95,
+          "normalization_ftp_w": 300,
+          "position": 4,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 67.17,
+          "profile_id": "m95_h180",
+          "speed_kph": 25,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 23.58,
+          "height_cm": 200,
+          "lead_power_w": 87.5,
+          "mass_kg": 95,
+          "normalization_ftp_w": 300,
+          "position": 5,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 70.74,
+          "profile_id": "m95_h200",
+          "speed_kph": 25,
+          "split": "train"
+        }
+      ],
+      "order": [
+        "m65_h170",
+        "m75_h200",
+        "m95_h160",
+        "m95_h180",
+        "m95_h200"
+      ],
+      "purpose": "calibration",
+      "speed_kph": 25
+    },
+    {
+      "batch_index": 1,
+      "context": {
+        "calculator_version": "1.39.1",
+        "distance_km": 19.59,
+        "efficiency": 0,
+        "efficiency_manual": true,
+        "elevation_m": 31.8,
+        "equipment": "not separately exposed by the web JSON export",
+        "intensity": 0,
+        "laps": 1,
+        "route_name": "Tempus Fugit",
+        "route_signature": "2128890027",
+        "team_size": 5
+      },
+      "observations": [
+        {
+          "flat_if_percent": 128.77,
+          "height_cm": 170,
+          "lead_power_w": 386.31,
+          "mass_kg": 65,
+          "normalization_ftp_w": 300,
+          "position": 1,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 386.31,
+          "profile_id": "m65_h170",
+          "speed_kph": 50,
+          "split": "selection"
+        },
+        {
+          "flat_if_percent": 134.07,
+          "height_cm": 200,
+          "lead_power_w": 474.59,
+          "mass_kg": 75,
+          "normalization_ftp_w": 300,
+          "position": 2,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 402.21,
+          "profile_id": "m75_h200",
+          "speed_kph": 50,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 123.71,
+          "height_cm": 160,
+          "lead_power_w": 462.77,
+          "mass_kg": 95,
+          "normalization_ftp_w": 300,
+          "position": 3,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 371.13,
+          "profile_id": "m95_h160",
+          "speed_kph": 50,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 126.87,
+          "height_cm": 180,
+          "lead_power_w": 503.81,
+          "mass_kg": 95,
+          "normalization_ftp_w": 300,
+          "position": 4,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 380.61,
+          "profile_id": "m95_h180",
+          "speed_kph": 50,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 136.45,
+          "height_cm": 200,
+          "lead_power_w": 543.31,
+          "mass_kg": 95,
+          "normalization_ftp_w": 300,
+          "position": 5,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 409.35,
+          "profile_id": "m95_h200",
+          "speed_kph": 50,
+          "split": "train"
+        }
+      ],
+      "order": [
+        "m65_h170",
+        "m75_h200",
+        "m95_h160",
+        "m95_h180",
+        "m95_h200"
+      ],
+      "purpose": "calibration",
+      "speed_kph": 50
+    },
+    {
+      "batch_index": 1,
+      "context": {
+        "calculator_version": "1.39.1",
+        "distance_km": 19.59,
+        "efficiency": 0,
+        "efficiency_manual": true,
+        "elevation_m": 31.8,
+        "equipment": "not separately exposed by the web JSON export",
+        "intensity": 0,
+        "laps": 1,
+        "route_name": "Tempus Fugit",
+        "route_signature": "2128890027",
+        "team_size": 5
+      },
+      "observations": [
+        {
+          "flat_if_percent": 69.49,
+          "height_cm": 170,
+          "lead_power_w": 208.47,
+          "mass_kg": 65,
+          "normalization_ftp_w": 300,
+          "position": 1,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 208.47,
+          "profile_id": "m65_h170",
+          "speed_kph": 40,
+          "split": "selection"
+        },
+        {
+          "flat_if_percent": 72.69,
+          "height_cm": 200,
+          "lead_power_w": 255.13,
+          "mass_kg": 75,
+          "normalization_ftp_w": 300,
+          "position": 2,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 218.07,
+          "profile_id": "m75_h200",
+          "speed_kph": 40,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 68.35,
+          "height_cm": 160,
+          "lead_power_w": 251.98,
+          "mass_kg": 95,
+          "normalization_ftp_w": 300,
+          "position": 3,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 205.05,
+          "profile_id": "m95_h160",
+          "speed_kph": 40,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 69.97,
+          "height_cm": 180,
+          "lead_power_w": 272.99,
+          "mass_kg": 95,
+          "normalization_ftp_w": 300,
+          "position": 4,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 209.91,
+          "profile_id": "m95_h180",
+          "speed_kph": 40,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 74.87,
+          "height_cm": 200,
+          "lead_power_w": 293.22,
+          "mass_kg": 95,
+          "normalization_ftp_w": 300,
+          "position": 5,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 224.61,
+          "profile_id": "m95_h200",
+          "speed_kph": 40,
+          "split": "train"
+        }
+      ],
+      "order": [
+        "m65_h170",
+        "m75_h200",
+        "m95_h160",
+        "m95_h180",
+        "m95_h200"
+      ],
+      "purpose": "calibration",
+      "speed_kph": 40
+    },
+    {
+      "batch_index": 2,
+      "context": {
+        "calculator_version": "1.39.1",
+        "distance_km": 19.59,
+        "efficiency": 0,
+        "efficiency_manual": true,
+        "elevation_m": 31.8,
+        "equipment": "not separately exposed by the web JSON export",
+        "intensity": 0,
+        "laps": 1,
+        "route_name": "Tempus Fugit",
+        "route_signature": "2128890027",
+        "team_size": 5
+      },
+      "observations": [
+        {
+          "flat_if_percent": 26.37,
+          "height_cm": 190,
+          "lead_power_w": 79.1,
+          "mass_kg": 85,
+          "normalization_ftp_w": 300,
+          "position": 1,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 79.11,
+          "profile_id": "m85_h190",
+          "speed_kph": 25,
+          "split": "selection"
+        },
+        {
+          "flat_if_percent": 18.75,
+          "height_cm": 195,
+          "lead_power_w": 64.1,
+          "mass_kg": 60,
+          "normalization_ftp_w": 300,
+          "position": 2,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 56.25,
+          "profile_id": "m60_h195",
+          "speed_kph": 25,
+          "split": "test"
+        },
+        {
+          "flat_if_percent": 21.51,
+          "height_cm": 165,
+          "lead_power_w": 75.93,
+          "mass_kg": 90,
+          "normalization_ftp_w": 300,
+          "position": 3,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 64.53000000000002,
+          "profile_id": "m90_h165",
+          "speed_kph": 25,
+          "split": "test"
+        },
+        {
+          "flat_if_percent": 14.46,
+          "height_cm": 160,
+          "lead_power_w": 53.64,
+          "mass_kg": 55,
+          "normalization_ftp_w": 300,
+          "position": 4,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 43.38,
+          "profile_id": "m55_h160",
+          "speed_kph": 25,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 23.58,
+          "height_cm": 200,
+          "lead_power_w": 87.5,
+          "mass_kg": 95,
+          "normalization_ftp_w": 300,
+          "position": 5,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 70.74,
+          "profile_id": "m95_h200",
+          "speed_kph": 25,
+          "split": "train"
+        }
+      ],
+      "order": [
+        "m85_h190",
+        "m60_h195",
+        "m90_h165",
+        "m55_h160",
+        "m95_h200"
+      ],
+      "purpose": "calibration",
+      "speed_kph": 25
+    },
+    {
+      "batch_index": 2,
+      "context": {
+        "calculator_version": "1.39.1",
+        "distance_km": 19.59,
+        "efficiency": 0,
+        "efficiency_manual": true,
+        "elevation_m": 31.8,
+        "equipment": "not separately exposed by the web JSON export",
+        "intensity": 0,
+        "laps": 1,
+        "route_name": "Tempus Fugit",
+        "route_signature": "2128890027",
+        "team_size": 5
+      },
+      "observations": [
+        {
+          "flat_if_percent": 163.76,
+          "height_cm": 190,
+          "lead_power_w": 491.29,
+          "mass_kg": 85,
+          "normalization_ftp_w": 300,
+          "position": 1,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 491.28,
+          "profile_id": "m85_h190",
+          "speed_kph": 50,
+          "split": "selection"
+        },
+        {
+          "flat_if_percent": 115.46,
+          "height_cm": 195,
+          "lead_power_w": 409.06,
+          "mass_kg": 60,
+          "normalization_ftp_w": 300,
+          "position": 2,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 346.38,
+          "profile_id": "m60_h195",
+          "speed_kph": 50,
+          "split": "test"
+        },
+        {
+          "flat_if_percent": 122.38,
+          "height_cm": 165,
+          "lead_power_w": 458.36,
+          "mass_kg": 90,
+          "normalization_ftp_w": 300,
+          "position": 3,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 367.14,
+          "profile_id": "m90_h165",
+          "speed_kph": 50,
+          "split": "test"
+        },
+        {
+          "flat_if_percent": 83.63,
+          "height_cm": 160,
+          "lead_power_w": 332.99,
+          "mass_kg": 55,
+          "normalization_ftp_w": 300,
+          "position": 4,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 250.89,
+          "profile_id": "m55_h160",
+          "speed_kph": 50,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 136.45,
+          "height_cm": 200,
+          "lead_power_w": 543.31,
+          "mass_kg": 95,
+          "normalization_ftp_w": 300,
+          "position": 5,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 409.35,
+          "profile_id": "m95_h200",
+          "speed_kph": 50,
+          "split": "train"
+        }
+      ],
+      "order": [
+        "m85_h190",
+        "m60_h195",
+        "m90_h165",
+        "m55_h160",
+        "m95_h200"
+      ],
+      "purpose": "calibration",
+      "speed_kph": 50
+    },
+    {
+      "batch_index": 2,
+      "context": {
+        "calculator_version": "1.39.1",
+        "distance_km": 19.59,
+        "efficiency": 0,
+        "efficiency_manual": true,
+        "elevation_m": 31.8,
+        "equipment": "not separately exposed by the web JSON export",
+        "intensity": 0,
+        "laps": 1,
+        "route_name": "Tempus Fugit",
+        "route_signature": "2128890027",
+        "team_size": 5
+      },
+      "observations": [
+        {
+          "flat_if_percent": 88.37,
+          "height_cm": 190,
+          "lead_power_w": 265.12,
+          "mass_kg": 85,
+          "normalization_ftp_w": 300,
+          "position": 1,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 265.11,
+          "profile_id": "m85_h190",
+          "speed_kph": 40,
+          "split": "selection"
+        },
+        {
+          "flat_if_percent": 62.43,
+          "height_cm": 195,
+          "lead_power_w": 219.39,
+          "mass_kg": 60,
+          "normalization_ftp_w": 300,
+          "position": 2,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 187.29,
+          "profile_id": "m60_h195",
+          "speed_kph": 40,
+          "split": "test"
+        },
+        {
+          "flat_if_percent": 67.43,
+          "height_cm": 165,
+          "lead_power_w": 248.99,
+          "mass_kg": 90,
+          "normalization_ftp_w": 300,
+          "position": 3,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 202.29000000000005,
+          "profile_id": "m90_h165",
+          "speed_kph": 40,
+          "split": "test"
+        },
+        {
+          "flat_if_percent": 45.9,
+          "height_cm": 160,
+          "lead_power_w": 179.72,
+          "mass_kg": 55,
+          "normalization_ftp_w": 300,
+          "position": 4,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 137.7,
+          "profile_id": "m55_h160",
+          "speed_kph": 40,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 74.87,
+          "height_cm": 200,
+          "lead_power_w": 293.22,
+          "mass_kg": 95,
+          "normalization_ftp_w": 300,
+          "position": 5,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 224.61,
+          "profile_id": "m95_h200",
+          "speed_kph": 40,
+          "split": "train"
+        }
+      ],
+      "order": [
+        "m85_h190",
+        "m60_h195",
+        "m90_h165",
+        "m55_h160",
+        "m95_h200"
+      ],
+      "purpose": "calibration",
+      "speed_kph": 40
+    },
+    {
+      "batch_index": 2,
+      "context": {
+        "calculator_version": "1.39.1",
+        "distance_km": 19.59,
+        "efficiency": 0,
+        "efficiency_manual": true,
+        "elevation_m": 31.8,
+        "equipment": "not separately exposed by the web JSON export",
+        "intensity": 0,
+        "laps": 1,
+        "route_name": "Tempus Fugit",
+        "route_signature": "2128890027",
+        "team_size": 5
+      },
+      "observations": [
+        {
+          "flat_if_percent": 21.37,
+          "height_cm": 195,
+          "lead_power_w": 64.1,
+          "mass_kg": 60,
+          "normalization_ftp_w": 300,
+          "position": 1,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 64.11,
+          "profile_id": "m60_h195",
+          "speed_kph": 25,
+          "split": "test"
+        },
+        {
+          "flat_if_percent": 22.46,
+          "height_cm": 165,
+          "lead_power_w": 75.93,
+          "mass_kg": 90,
+          "normalization_ftp_w": 300,
+          "position": 2,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 67.38,
+          "profile_id": "m90_h165",
+          "speed_kph": 25,
+          "split": "test"
+        },
+        {
+          "flat_if_percent": 15.08,
+          "height_cm": 160,
+          "lead_power_w": 53.64,
+          "mass_kg": 55,
+          "normalization_ftp_w": 300,
+          "position": 3,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 45.24,
+          "profile_id": "m55_h160",
+          "speed_kph": 25,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 23.58,
+          "height_cm": 200,
+          "lead_power_w": 87.5,
+          "mass_kg": 95,
+          "normalization_ftp_w": 300,
+          "position": 4,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 70.74,
+          "profile_id": "m95_h200",
+          "speed_kph": 25,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 21.32,
+          "height_cm": 190,
+          "lead_power_w": 79.1,
+          "mass_kg": 85,
+          "normalization_ftp_w": 300,
+          "position": 5,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 63.96,
+          "profile_id": "m85_h190",
+          "speed_kph": 25,
+          "split": "selection"
+        }
+      ],
+      "order": [
+        "m60_h195",
+        "m90_h165",
+        "m55_h160",
+        "m95_h200",
+        "m85_h190"
+      ],
+      "purpose": "calibration",
+      "speed_kph": 25
+    },
+    {
+      "batch_index": 2,
+      "context": {
+        "calculator_version": "1.39.1",
+        "distance_km": 19.59,
+        "efficiency": 0,
+        "efficiency_manual": true,
+        "elevation_m": 31.8,
+        "equipment": "not separately exposed by the web JSON export",
+        "intensity": 0,
+        "laps": 1,
+        "route_name": "Tempus Fugit",
+        "route_signature": "2128890027",
+        "team_size": 5
+      },
+      "observations": [
+        {
+          "flat_if_percent": 136.35,
+          "height_cm": 195,
+          "lead_power_w": 409.06,
+          "mass_kg": 60,
+          "normalization_ftp_w": 300,
+          "position": 1,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 409.05,
+          "profile_id": "m60_h195",
+          "speed_kph": 50,
+          "split": "test"
+        },
+        {
+          "flat_if_percent": 129.98,
+          "height_cm": 165,
+          "lead_power_w": 458.36,
+          "mass_kg": 90,
+          "normalization_ftp_w": 300,
+          "position": 2,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 389.94,
+          "profile_id": "m90_h165",
+          "speed_kph": 50,
+          "split": "test"
+        },
+        {
+          "flat_if_percent": 88.61,
+          "height_cm": 160,
+          "lead_power_w": 332.99,
+          "mass_kg": 55,
+          "normalization_ftp_w": 300,
+          "position": 3,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 265.83,
+          "profile_id": "m55_h160",
+          "speed_kph": 50,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 136.45,
+          "height_cm": 200,
+          "lead_power_w": 543.31,
+          "mass_kg": 95,
+          "normalization_ftp_w": 300,
+          "position": 4,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 409.35,
+          "profile_id": "m95_h200",
+          "speed_kph": 50,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 123.38,
+          "height_cm": 190,
+          "lead_power_w": 491.29,
+          "mass_kg": 85,
+          "normalization_ftp_w": 300,
+          "position": 5,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 370.14,
+          "profile_id": "m85_h190",
+          "speed_kph": 50,
+          "split": "selection"
+        }
+      ],
+      "order": [
+        "m60_h195",
+        "m90_h165",
+        "m55_h160",
+        "m95_h200",
+        "m85_h190"
+      ],
+      "purpose": "calibration",
+      "speed_kph": 50
+    },
+    {
+      "batch_index": 2,
+      "context": {
+        "calculator_version": "1.39.1",
+        "distance_km": 19.59,
+        "efficiency": 0,
+        "efficiency_manual": true,
+        "elevation_m": 31.8,
+        "equipment": "not separately exposed by the web JSON export",
+        "intensity": 0,
+        "laps": 1,
+        "route_name": "Tempus Fugit",
+        "route_signature": "2128890027",
+        "team_size": 5
+      },
+      "observations": [
+        {
+          "flat_if_percent": 73.13,
+          "height_cm": 195,
+          "lead_power_w": 219.39,
+          "mass_kg": 60,
+          "normalization_ftp_w": 300,
+          "position": 1,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 219.39,
+          "profile_id": "m60_h195",
+          "speed_kph": 40,
+          "split": "test"
+        },
+        {
+          "flat_if_percent": 71.32,
+          "height_cm": 165,
+          "lead_power_w": 248.99,
+          "mass_kg": 90,
+          "normalization_ftp_w": 300,
+          "position": 2,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 213.95999999999995,
+          "profile_id": "m90_h165",
+          "speed_kph": 40,
+          "split": "test"
+        },
+        {
+          "flat_if_percent": 48.44,
+          "height_cm": 160,
+          "lead_power_w": 179.72,
+          "mass_kg": 55,
+          "normalization_ftp_w": 300,
+          "position": 3,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 145.32,
+          "profile_id": "m55_h160",
+          "speed_kph": 40,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 74.87,
+          "height_cm": 200,
+          "lead_power_w": 293.22,
+          "mass_kg": 95,
+          "normalization_ftp_w": 300,
+          "position": 4,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 224.61,
+          "profile_id": "m95_h200",
+          "speed_kph": 40,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 67.7,
+          "height_cm": 190,
+          "lead_power_w": 265.12,
+          "mass_kg": 85,
+          "normalization_ftp_w": 300,
+          "position": 5,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 203.1,
+          "profile_id": "m85_h190",
+          "speed_kph": 40,
+          "split": "selection"
+        }
+      ],
+      "order": [
+        "m60_h195",
+        "m90_h165",
+        "m55_h160",
+        "m95_h200",
+        "m85_h190"
+      ],
+      "purpose": "calibration",
+      "speed_kph": 40
+    },
+    {
+      "batch_index": 2,
+      "context": {
+        "calculator_version": "1.39.1",
+        "distance_km": 19.59,
+        "efficiency": 0,
+        "efficiency_manual": true,
+        "elevation_m": 31.8,
+        "equipment": "not separately exposed by the web JSON export",
+        "intensity": 0,
+        "laps": 1,
+        "route_name": "Tempus Fugit",
+        "route_signature": "2128890027",
+        "team_size": 5
+      },
+      "observations": [
+        {
+          "flat_if_percent": 25.31,
+          "height_cm": 165,
+          "lead_power_w": 75.93,
+          "mass_kg": 90,
+          "normalization_ftp_w": 300,
+          "position": 1,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 75.93,
+          "profile_id": "m90_h165",
+          "speed_kph": 25,
+          "split": "test"
+        },
+        {
+          "flat_if_percent": 15.78,
+          "height_cm": 160,
+          "lead_power_w": 53.64,
+          "mass_kg": 55,
+          "normalization_ftp_w": 300,
+          "position": 2,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 47.34,
+          "profile_id": "m55_h160",
+          "speed_kph": 25,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 24.6,
+          "height_cm": 200,
+          "lead_power_w": 87.5,
+          "mass_kg": 95,
+          "normalization_ftp_w": 300,
+          "position": 3,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 73.8,
+          "profile_id": "m95_h200",
+          "speed_kph": 25,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 21.32,
+          "height_cm": 190,
+          "lead_power_w": 79.1,
+          "mass_kg": 85,
+          "normalization_ftp_w": 300,
+          "position": 4,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 63.96,
+          "profile_id": "m85_h190",
+          "speed_kph": 25,
+          "split": "selection"
+        },
+        {
+          "flat_if_percent": 17.11,
+          "height_cm": 195,
+          "lead_power_w": 64.1,
+          "mass_kg": 60,
+          "normalization_ftp_w": 300,
+          "position": 5,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 51.33,
+          "profile_id": "m60_h195",
+          "speed_kph": 25,
+          "split": "test"
+        }
+      ],
+      "order": [
+        "m90_h165",
+        "m55_h160",
+        "m95_h200",
+        "m85_h190",
+        "m60_h195"
+      ],
+      "purpose": "calibration",
+      "speed_kph": 25
+    },
+    {
+      "batch_index": 2,
+      "context": {
+        "calculator_version": "1.39.1",
+        "distance_km": 19.59,
+        "efficiency": 0,
+        "efficiency_manual": true,
+        "elevation_m": 31.8,
+        "equipment": "not separately exposed by the web JSON export",
+        "intensity": 0,
+        "laps": 1,
+        "route_name": "Tempus Fugit",
+        "route_signature": "2128890027",
+        "team_size": 5
+      },
+      "observations": [
+        {
+          "flat_if_percent": 152.79,
+          "height_cm": 165,
+          "lead_power_w": 458.36,
+          "mass_kg": 90,
+          "normalization_ftp_w": 300,
+          "position": 1,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 458.37,
+          "profile_id": "m90_h165",
+          "speed_kph": 50,
+          "split": "test"
+        },
+        {
+          "flat_if_percent": 94.2,
+          "height_cm": 160,
+          "lead_power_w": 332.99,
+          "mass_kg": 55,
+          "normalization_ftp_w": 300,
+          "position": 2,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 282.6,
+          "profile_id": "m55_h160",
+          "speed_kph": 50,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 144.57,
+          "height_cm": 200,
+          "lead_power_w": 543.31,
+          "mass_kg": 95,
+          "normalization_ftp_w": 300,
+          "position": 3,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 433.71,
+          "profile_id": "m95_h200",
+          "speed_kph": 50,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 123.38,
+          "height_cm": 190,
+          "lead_power_w": 491.29,
+          "mass_kg": 85,
+          "normalization_ftp_w": 300,
+          "position": 4,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 370.14,
+          "profile_id": "m85_h190",
+          "speed_kph": 50,
+          "split": "selection"
+        },
+        {
+          "flat_if_percent": 102.3,
+          "height_cm": 195,
+          "lead_power_w": 409.06,
+          "mass_kg": 60,
+          "normalization_ftp_w": 300,
+          "position": 5,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 306.9,
+          "profile_id": "m60_h195",
+          "speed_kph": 50,
+          "split": "test"
+        }
+      ],
+      "order": [
+        "m90_h165",
+        "m55_h160",
+        "m95_h200",
+        "m85_h190",
+        "m60_h195"
+      ],
+      "purpose": "calibration",
+      "speed_kph": 50
+    },
+    {
+      "batch_index": 2,
+      "context": {
+        "calculator_version": "1.39.1",
+        "distance_km": 19.59,
+        "efficiency": 0,
+        "efficiency_manual": true,
+        "elevation_m": 31.8,
+        "equipment": "not separately exposed by the web JSON export",
+        "intensity": 0,
+        "laps": 1,
+        "route_name": "Tempus Fugit",
+        "route_signature": "2128890027",
+        "team_size": 5
+      },
+      "observations": [
+        {
+          "flat_if_percent": 83.0,
+          "height_cm": 165,
+          "lead_power_w": 248.99,
+          "mass_kg": 90,
+          "normalization_ftp_w": 300,
+          "position": 1,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 249.0,
+          "profile_id": "m90_h165",
+          "speed_kph": 40,
+          "split": "test"
+        },
+        {
+          "flat_if_percent": 51.31,
+          "height_cm": 160,
+          "lead_power_w": 179.72,
+          "mass_kg": 55,
+          "normalization_ftp_w": 300,
+          "position": 2,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 153.93,
+          "profile_id": "m55_h160",
+          "speed_kph": 40,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 79.03,
+          "height_cm": 200,
+          "lead_power_w": 293.22,
+          "mass_kg": 95,
+          "normalization_ftp_w": 300,
+          "position": 3,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 237.09,
+          "profile_id": "m95_h200",
+          "speed_kph": 40,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 67.7,
+          "height_cm": 190,
+          "lead_power_w": 265.12,
+          "mass_kg": 85,
+          "normalization_ftp_w": 300,
+          "position": 4,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 203.1,
+          "profile_id": "m85_h190",
+          "speed_kph": 40,
+          "split": "selection"
+        },
+        {
+          "flat_if_percent": 55.7,
+          "height_cm": 195,
+          "lead_power_w": 219.39,
+          "mass_kg": 60,
+          "normalization_ftp_w": 300,
+          "position": 5,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 167.1,
+          "profile_id": "m60_h195",
+          "speed_kph": 40,
+          "split": "test"
+        }
+      ],
+      "order": [
+        "m90_h165",
+        "m55_h160",
+        "m95_h200",
+        "m85_h190",
+        "m60_h195"
+      ],
+      "purpose": "calibration",
+      "speed_kph": 40
+    },
+    {
+      "batch_index": 2,
+      "context": {
+        "calculator_version": "1.39.1",
+        "distance_km": 19.59,
+        "efficiency": 0,
+        "efficiency_manual": true,
+        "elevation_m": 31.8,
+        "equipment": "not separately exposed by the web JSON export",
+        "intensity": 0,
+        "laps": 1,
+        "route_name": "Tempus Fugit",
+        "route_signature": "2128890027",
+        "team_size": 5
+      },
+      "observations": [
+        {
+          "flat_if_percent": 17.88,
+          "height_cm": 160,
+          "lead_power_w": 53.64,
+          "mass_kg": 55,
+          "normalization_ftp_w": 300,
+          "position": 1,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 53.64,
+          "profile_id": "m55_h160",
+          "speed_kph": 25,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 25.74,
+          "height_cm": 200,
+          "lead_power_w": 87.5,
+          "mass_kg": 95,
+          "normalization_ftp_w": 300,
+          "position": 2,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 77.21999999999998,
+          "profile_id": "m95_h200",
+          "speed_kph": 25,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 22.24,
+          "height_cm": 190,
+          "lead_power_w": 79.1,
+          "mass_kg": 85,
+          "normalization_ftp_w": 300,
+          "position": 3,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 66.71999999999998,
+          "profile_id": "m85_h190",
+          "speed_kph": 25,
+          "split": "selection"
+        },
+        {
+          "flat_if_percent": 17.11,
+          "height_cm": 195,
+          "lead_power_w": 64.1,
+          "mass_kg": 60,
+          "normalization_ftp_w": 300,
+          "position": 4,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 51.33,
+          "profile_id": "m60_h195",
+          "speed_kph": 25,
+          "split": "test"
+        },
+        {
+          "flat_if_percent": 20.67,
+          "height_cm": 165,
+          "lead_power_w": 75.93,
+          "mass_kg": 90,
+          "normalization_ftp_w": 300,
+          "position": 5,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 62.01000000000001,
+          "profile_id": "m90_h165",
+          "speed_kph": 25,
+          "split": "test"
+        }
+      ],
+      "order": [
+        "m55_h160",
+        "m95_h200",
+        "m85_h190",
+        "m60_h195",
+        "m90_h165"
+      ],
+      "purpose": "calibration",
+      "speed_kph": 25
+    },
+    {
+      "batch_index": 2,
+      "context": {
+        "calculator_version": "1.39.1",
+        "distance_km": 19.59,
+        "efficiency": 0,
+        "efficiency_manual": true,
+        "elevation_m": 31.8,
+        "equipment": "not separately exposed by the web JSON export",
+        "intensity": 0,
+        "laps": 1,
+        "route_name": "Tempus Fugit",
+        "route_signature": "2128890027",
+        "team_size": 5
+      },
+      "observations": [
+        {
+          "flat_if_percent": 111.0,
+          "height_cm": 160,
+          "lead_power_w": 332.99,
+          "mass_kg": 55,
+          "normalization_ftp_w": 300,
+          "position": 1,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 333.0,
+          "profile_id": "m55_h160",
+          "speed_kph": 50,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 153.7,
+          "height_cm": 200,
+          "lead_power_w": 543.31,
+          "mass_kg": 95,
+          "normalization_ftp_w": 300,
+          "position": 2,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 461.1,
+          "profile_id": "m95_h200",
+          "speed_kph": 50,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 130.72,
+          "height_cm": 190,
+          "lead_power_w": 491.29,
+          "mass_kg": 85,
+          "normalization_ftp_w": 300,
+          "position": 3,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 392.16,
+          "profile_id": "m85_h190",
+          "speed_kph": 50,
+          "split": "selection"
+        },
+        {
+          "flat_if_percent": 102.3,
+          "height_cm": 195,
+          "lead_power_w": 409.06,
+          "mass_kg": 60,
+          "normalization_ftp_w": 300,
+          "position": 4,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 306.9,
+          "profile_id": "m60_h195",
+          "speed_kph": 50,
+          "split": "test"
+        },
+        {
+          "flat_if_percent": 115.63,
+          "height_cm": 165,
+          "lead_power_w": 458.36,
+          "mass_kg": 90,
+          "normalization_ftp_w": 300,
+          "position": 5,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 346.89,
+          "profile_id": "m90_h165",
+          "speed_kph": 50,
+          "split": "test"
+        }
+      ],
+      "order": [
+        "m55_h160",
+        "m95_h200",
+        "m85_h190",
+        "m60_h195",
+        "m90_h165"
+      ],
+      "purpose": "calibration",
+      "speed_kph": 50
+    },
+    {
+      "batch_index": 2,
+      "context": {
+        "calculator_version": "1.39.1",
+        "distance_km": 19.59,
+        "efficiency": 0,
+        "efficiency_manual": true,
+        "elevation_m": 31.8,
+        "equipment": "not separately exposed by the web JSON export",
+        "intensity": 0,
+        "laps": 1,
+        "route_name": "Tempus Fugit",
+        "route_signature": "2128890027",
+        "team_size": 5
+      },
+      "observations": [
+        {
+          "flat_if_percent": 59.91,
+          "height_cm": 160,
+          "lead_power_w": 179.72,
+          "mass_kg": 55,
+          "normalization_ftp_w": 300,
+          "position": 1,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 179.73,
+          "profile_id": "m55_h160",
+          "speed_kph": 40,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 83.71,
+          "height_cm": 200,
+          "lead_power_w": 293.22,
+          "mass_kg": 95,
+          "normalization_ftp_w": 300,
+          "position": 2,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 251.12999999999997,
+          "profile_id": "m95_h200",
+          "speed_kph": 40,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 71.46,
+          "height_cm": 190,
+          "lead_power_w": 265.12,
+          "mass_kg": 85,
+          "normalization_ftp_w": 300,
+          "position": 3,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 214.37999999999997,
+          "profile_id": "m85_h190",
+          "speed_kph": 40,
+          "split": "selection"
+        },
+        {
+          "flat_if_percent": 55.7,
+          "height_cm": 195,
+          "lead_power_w": 219.39,
+          "mass_kg": 60,
+          "normalization_ftp_w": 300,
+          "position": 4,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 167.1,
+          "profile_id": "m60_h195",
+          "speed_kph": 40,
+          "split": "test"
+        },
+        {
+          "flat_if_percent": 63.97,
+          "height_cm": 165,
+          "lead_power_w": 248.99,
+          "mass_kg": 90,
+          "normalization_ftp_w": 300,
+          "position": 5,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 191.91,
+          "profile_id": "m90_h165",
+          "speed_kph": 40,
+          "split": "test"
+        }
+      ],
+      "order": [
+        "m55_h160",
+        "m95_h200",
+        "m85_h190",
+        "m60_h195",
+        "m90_h165"
+      ],
+      "purpose": "calibration",
+      "speed_kph": 40
+    },
+    {
+      "batch_index": 2,
+      "context": {
+        "calculator_version": "1.39.1",
+        "distance_km": 19.59,
+        "efficiency": 0,
+        "efficiency_manual": true,
+        "elevation_m": 31.8,
+        "equipment": "not separately exposed by the web JSON export",
+        "intensity": 0,
+        "laps": 1,
+        "route_name": "Tempus Fugit",
+        "route_signature": "2128890027",
+        "team_size": 5
+      },
+      "observations": [
+        {
+          "flat_if_percent": 29.17,
+          "height_cm": 200,
+          "lead_power_w": 87.5,
+          "mass_kg": 95,
+          "normalization_ftp_w": 300,
+          "position": 1,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 87.51,
+          "profile_id": "m95_h200",
+          "speed_kph": 25,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 23.27,
+          "height_cm": 190,
+          "lead_power_w": 79.1,
+          "mass_kg": 85,
+          "normalization_ftp_w": 300,
+          "position": 2,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 69.81,
+          "profile_id": "m85_h190",
+          "speed_kph": 25,
+          "split": "selection"
+        },
+        {
+          "flat_if_percent": 17.88,
+          "height_cm": 195,
+          "lead_power_w": 64.1,
+          "mass_kg": 60,
+          "normalization_ftp_w": 300,
+          "position": 3,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 53.64,
+          "profile_id": "m60_h195",
+          "speed_kph": 25,
+          "split": "test"
+        },
+        {
+          "flat_if_percent": 20.67,
+          "height_cm": 165,
+          "lead_power_w": 75.93,
+          "mass_kg": 90,
+          "normalization_ftp_w": 300,
+          "position": 4,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 62.01000000000001,
+          "profile_id": "m90_h165",
+          "speed_kph": 25,
+          "split": "test"
+        },
+        {
+          "flat_if_percent": 14.46,
+          "height_cm": 160,
+          "lead_power_w": 53.64,
+          "mass_kg": 55,
+          "normalization_ftp_w": 300,
+          "position": 5,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 43.38,
+          "profile_id": "m55_h160",
+          "speed_kph": 25,
+          "split": "train"
+        }
+      ],
+      "order": [
+        "m95_h200",
+        "m85_h190",
+        "m60_h195",
+        "m90_h165",
+        "m55_h160"
+      ],
+      "purpose": "calibration",
+      "speed_kph": 25
+    },
+    {
+      "batch_index": 2,
+      "context": {
+        "calculator_version": "1.39.1",
+        "distance_km": 19.59,
+        "efficiency": 0,
+        "efficiency_manual": true,
+        "elevation_m": 31.8,
+        "equipment": "not separately exposed by the web JSON export",
+        "intensity": 0,
+        "laps": 1,
+        "route_name": "Tempus Fugit",
+        "route_signature": "2128890027",
+        "team_size": 5
+      },
+      "observations": [
+        {
+          "flat_if_percent": 181.1,
+          "height_cm": 200,
+          "lead_power_w": 543.31,
+          "mass_kg": 95,
+          "normalization_ftp_w": 300,
+          "position": 1,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 543.3,
+          "profile_id": "m95_h200",
+          "speed_kph": 50,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 138.98,
+          "height_cm": 190,
+          "lead_power_w": 491.29,
+          "mass_kg": 85,
+          "normalization_ftp_w": 300,
+          "position": 2,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 416.94,
+          "profile_id": "m85_h190",
+          "speed_kph": 50,
+          "split": "selection"
+        },
+        {
+          "flat_if_percent": 108.49,
+          "height_cm": 195,
+          "lead_power_w": 409.06,
+          "mass_kg": 60,
+          "normalization_ftp_w": 300,
+          "position": 3,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 325.47,
+          "profile_id": "m60_h195",
+          "speed_kph": 50,
+          "split": "test"
+        },
+        {
+          "flat_if_percent": 115.63,
+          "height_cm": 165,
+          "lead_power_w": 458.36,
+          "mass_kg": 90,
+          "normalization_ftp_w": 300,
+          "position": 4,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 346.89,
+          "profile_id": "m90_h165",
+          "speed_kph": 50,
+          "split": "test"
+        },
+        {
+          "flat_if_percent": 83.63,
+          "height_cm": 160,
+          "lead_power_w": 332.99,
+          "mass_kg": 55,
+          "normalization_ftp_w": 300,
+          "position": 5,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 250.89,
+          "profile_id": "m55_h160",
+          "speed_kph": 50,
+          "split": "train"
+        }
+      ],
+      "order": [
+        "m95_h200",
+        "m85_h190",
+        "m60_h195",
+        "m90_h165",
+        "m55_h160"
+      ],
+      "purpose": "calibration",
+      "speed_kph": 50
+    },
+    {
+      "batch_index": 2,
+      "context": {
+        "calculator_version": "1.39.1",
+        "distance_km": 19.59,
+        "efficiency": 0,
+        "efficiency_manual": true,
+        "elevation_m": 31.8,
+        "equipment": "not separately exposed by the web JSON export",
+        "intensity": 0,
+        "laps": 1,
+        "route_name": "Tempus Fugit",
+        "route_signature": "2128890027",
+        "team_size": 5
+      },
+      "observations": [
+        {
+          "flat_if_percent": 97.74,
+          "height_cm": 200,
+          "lead_power_w": 293.22,
+          "mass_kg": 95,
+          "normalization_ftp_w": 300,
+          "position": 1,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 293.22,
+          "profile_id": "m95_h200",
+          "speed_kph": 40,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 75.69,
+          "height_cm": 190,
+          "lead_power_w": 265.12,
+          "mass_kg": 85,
+          "normalization_ftp_w": 300,
+          "position": 2,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 227.07,
+          "profile_id": "m85_h190",
+          "speed_kph": 40,
+          "split": "selection"
+        },
+        {
+          "flat_if_percent": 58.87,
+          "height_cm": 195,
+          "lead_power_w": 219.39,
+          "mass_kg": 60,
+          "normalization_ftp_w": 300,
+          "position": 3,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 176.61,
+          "profile_id": "m60_h195",
+          "speed_kph": 40,
+          "split": "test"
+        },
+        {
+          "flat_if_percent": 63.97,
+          "height_cm": 165,
+          "lead_power_w": 248.99,
+          "mass_kg": 90,
+          "normalization_ftp_w": 300,
+          "position": 4,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 191.91,
+          "profile_id": "m90_h165",
+          "speed_kph": 40,
+          "split": "test"
+        },
+        {
+          "flat_if_percent": 45.9,
+          "height_cm": 160,
+          "lead_power_w": 179.72,
+          "mass_kg": 55,
+          "normalization_ftp_w": 300,
+          "position": 5,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 137.7,
+          "profile_id": "m55_h160",
+          "speed_kph": 40,
+          "split": "train"
+        }
+      ],
+      "order": [
+        "m95_h200",
+        "m85_h190",
+        "m60_h195",
+        "m90_h165",
+        "m55_h160"
+      ],
+      "purpose": "calibration",
+      "speed_kph": 40
+    },
+    {
+      "batch_index": 2,
+      "context": {
+        "calculator_version": "1.39.1",
+        "distance_km": 19.59,
+        "efficiency": 0,
+        "efficiency_manual": true,
+        "elevation_m": 31.8,
+        "equipment": "not separately exposed by the web JSON export",
+        "intensity": 0,
+        "laps": 1,
+        "route_name": "Tempus Fugit",
+        "route_signature": "2128890027",
+        "team_size": 5
+      },
+      "observations": [
+        {
+          "flat_if_percent": 97.74,
+          "height_cm": 200,
+          "lead_power_w": 293.22,
+          "mass_kg": 95,
+          "normalization_ftp_w": 300,
+          "position": 1,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 293.22,
+          "profile_id": "m95_h200",
+          "speed_kph": 40,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 75.69,
+          "height_cm": 190,
+          "lead_power_w": 265.12,
+          "mass_kg": 85,
+          "normalization_ftp_w": 300,
+          "position": 2,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 227.07,
+          "profile_id": "m85_h190",
+          "speed_kph": 40,
+          "split": "selection"
+        },
+        {
+          "flat_if_percent": 88.3,
+          "height_cm": 195,
+          "lead_power_w": 219.39,
+          "mass_kg": 60,
+          "normalization_ftp_w": 200,
+          "position": 3,
+          "power_rounding_half_width_w": 0.01,
+          "power_w": 176.6,
+          "profile_id": "m60_h195",
+          "speed_kph": 40,
+          "split": "test"
+        },
+        {
+          "flat_if_percent": 63.97,
+          "height_cm": 165,
+          "lead_power_w": 248.99,
+          "mass_kg": 90,
+          "normalization_ftp_w": 300,
+          "position": 4,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 191.91,
+          "profile_id": "m90_h165",
+          "speed_kph": 40,
+          "split": "test"
+        },
+        {
+          "flat_if_percent": 45.9,
+          "height_cm": 160,
+          "lead_power_w": 179.72,
+          "mass_kg": 55,
+          "normalization_ftp_w": 300,
+          "position": 5,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 137.7,
+          "profile_id": "m55_h160",
+          "speed_kph": 40,
+          "split": "train"
+        }
+      ],
+      "order": [
+        "m95_h200",
+        "m85_h190",
+        "m60_h195",
+        "m90_h165",
+        "m55_h160"
+      ],
+      "purpose": "ftp-invariance",
+      "speed_kph": 40
+    },
+    {
+      "batch_index": 2,
+      "context": {
+        "calculator_version": "1.39.1",
+        "distance_km": 19.59,
+        "efficiency": 0,
+        "efficiency_manual": true,
+        "elevation_m": 31.8,
+        "equipment": "not separately exposed by the web JSON export",
+        "intensity": 0,
+        "laps": 1,
+        "route_name": "Tempus Fugit",
+        "route_signature": "2128890027",
+        "team_size": 5
+      },
+      "observations": [
+        {
+          "flat_if_percent": 97.74,
+          "height_cm": 200,
+          "lead_power_w": 293.22,
+          "mass_kg": 95,
+          "normalization_ftp_w": 300,
+          "position": 1,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 293.22,
+          "profile_id": "m95_h200",
+          "speed_kph": 40,
+          "split": "train"
+        },
+        {
+          "flat_if_percent": 75.69,
+          "height_cm": 190,
+          "lead_power_w": 265.12,
+          "mass_kg": 85,
+          "normalization_ftp_w": 300,
+          "position": 2,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 227.07,
+          "profile_id": "m85_h190",
+          "speed_kph": 40,
+          "split": "selection"
+        },
+        {
+          "flat_if_percent": 44.15,
+          "height_cm": 195,
+          "lead_power_w": 219.39,
+          "mass_kg": 60,
+          "normalization_ftp_w": 400,
+          "position": 3,
+          "power_rounding_half_width_w": 0.02,
+          "power_w": 176.6,
+          "profile_id": "m60_h195",
+          "speed_kph": 40,
+          "split": "test"
+        },
+        {
+          "flat_if_percent": 63.97,
+          "height_cm": 165,
+          "lead_power_w": 248.99,
+          "mass_kg": 90,
+          "normalization_ftp_w": 300,
+          "position": 4,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 191.91,
+          "profile_id": "m90_h165",
+          "speed_kph": 40,
+          "split": "test"
+        },
+        {
+          "flat_if_percent": 45.9,
+          "height_cm": 160,
+          "lead_power_w": 179.72,
+          "mass_kg": 55,
+          "normalization_ftp_w": 300,
+          "position": 5,
+          "power_rounding_half_width_w": 0.015,
+          "power_w": 137.7,
+          "profile_id": "m55_h160",
+          "speed_kph": 40,
+          "split": "train"
+        }
+      ],
+      "order": [
+        "m95_h200",
+        "m85_h190",
+        "m60_h195",
+        "m90_h165",
+        "m55_h160"
+      ],
+      "purpose": "ftp-invariance",
+      "speed_kph": 40
+    }
+  ],
+  "plan": {
+    "acceptance_max_error_w": 1.0,
+    "active_pull_seconds": 120,
+    "batches": [
+      [
+        {
+          "height_cm": 160,
+          "id": "m55_h160",
+          "mass_kg": 55,
+          "split": "train"
+        },
+        {
+          "height_cm": 180,
+          "id": "m55_h180",
+          "mass_kg": 55,
+          "split": "train"
+        },
+        {
+          "height_cm": 200,
+          "id": "m55_h200",
+          "mass_kg": 55,
+          "split": "train"
+        },
+        {
+          "height_cm": 160,
+          "id": "m75_h160",
+          "mass_kg": 75,
+          "split": "train"
+        },
+        {
+          "height_cm": 180,
+          "id": "m75_h180",
+          "mass_kg": 75,
+          "split": "train"
+        }
+      ],
+      [
+        {
+          "height_cm": 200,
+          "id": "m75_h200",
+          "mass_kg": 75,
+          "split": "train"
+        },
+        {
+          "height_cm": 160,
+          "id": "m95_h160",
+          "mass_kg": 95,
+          "split": "train"
+        },
+        {
+          "height_cm": 180,
+          "id": "m95_h180",
+          "mass_kg": 95,
+          "split": "train"
+        },
+        {
+          "height_cm": 200,
+          "id": "m95_h200",
+          "mass_kg": 95,
+          "split": "train"
+        },
+        {
+          "height_cm": 170,
+          "id": "m65_h170",
+          "mass_kg": 65,
+          "split": "selection"
+        }
+      ],
+      [
+        {
+          "height_cm": 190,
+          "id": "m85_h190",
+          "mass_kg": 85,
+          "split": "selection"
+        },
+        {
+          "height_cm": 195,
+          "id": "m60_h195",
+          "mass_kg": 60,
+          "split": "test"
+        },
+        {
+          "height_cm": 165,
+          "id": "m90_h165",
+          "mass_kg": 90,
+          "split": "test"
+        },
+        {
+          "height_cm": 160,
+          "id": "m55_h160",
+          "mass_kg": 55,
+          "split": "train"
+        },
+        {
+          "height_cm": 200,
+          "id": "m95_h200",
+          "mass_kg": 95,
+          "split": "train"
+        }
+      ]
+    ],
+    "blind_speeds_kph": [
+      40
+    ],
+    "body_candidates": [
+      "power_law",
+      "affine",
+      "quadratic"
+    ],
+    "context": {
+      "efficiency": 0,
+      "intensity": 0,
+      "laps": 1,
+      "route_name": "Tempus Fugit",
+      "route_signature": "2128890027",
+      "team_size": 5
+    },
+    "expected_calculator_version": "1.39.1",
+    "experiment_id": "gopher-flat-v1",
+    "fit_speeds_kph": [
+      25,
+      50
+    ],
+    "ftp_invariance": {
+      "batch_index": 2,
+      "ftp_w": [
+        200,
+        400
+      ],
+      "profile_id": "m60_h195",
+      "speed_kph": 40
+    },
+    "linear_candidates": [
+      "mass_linear",
+      "affine"
+    ],
+    "probe_ftp_w": 300,
+    "schema_version": 1,
+    "selection_tolerance_w": 0.05,
+    "synthetic_only": true
+  },
+  "plan_sha256": "fa23435409d09287de2c2ac2937e778abd8d07c1a4aca936a4e889fa92b571b6",
+  "request_count": 168,
+  "schema_version": 1,
+  "source": "https://zwiftgopher.com/TTT/",
+  "status": "complete"
+}
