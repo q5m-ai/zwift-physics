@@ -1,0 +1,11 @@
+{
+  "experiment": "speedlab-reference-v1",
+  "source": "https://zwiftspeedlab.coalitionracing.com/",
+  "scope": "Effective steady-state setup curves, not raw per-item values, not Gopher and not in-game validation",
+  "frames": ["zwift_tt", "bmc_timemachine_01", "cervelo_p_5_2026", "felt_ia", "trek_speed_concept_2021", "ventum_one", "zwift_aero", "zwift_carbon"],
+  "front_and_rear": "cadex_42",
+  "controls": "Fictional 75 kg, 180 cm; stage 0; helmet and socks none; zero drafting; rubberbanding off; pavement; 250 W and 40 km/h chart inputs; -3 to +6 percent grade in 1 percent steps.",
+  "fit": "Use published speed-vs-power chart points between 120 and 400 W. Fit A and B from the lowest and highest powers only; check every interior point (at least three). Fit C from the 250 W speed at +6%; test +1 through +5% and -1 through -3% using unchanged A/B. Inertia is not identified and must remain null. Score watts at each displayed speed.",
+  "gates": "All coefficients positive; maximum error <=1 W both for interior flat points and the eight nonzero check grades. Require all original settings and both frame classes. Inspect each row individually; no tuning or silent exclusions. Repeat first frame last; require identical saved chart points.",
+  "budget": "Maximum 12 requests (home, UI script/version check, options, 8 normal compute requests, 1 repeat). Anonymous serial requests >=2.1 s apart, no redirects/retries, no bulk extraction or private fields. Stop on denial, timeout, schema/context change or invalid readback. Save only allowlisted displayed speed/power values."
+}
