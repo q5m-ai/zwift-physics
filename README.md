@@ -9,6 +9,22 @@ calculator is not validation against the actual game. Version 0.1 is a research
 prototype for **steady flat power/speed and positional drafting**. Physiology and
 race optimization are deliberately separate future work.
 
+## Run the offline model
+
+From this checkout, with Python 3.11+, no external dependencies or API keys:
+
+```python
+from zwift_physics import CyclingModel
+
+# Illustrative rider + bike coefficients, not bare frame properties.
+bike = CyclingModel(aero=0.16, rolling_n=3.0, gravity_n=800, inertia_kg=90)
+v = bike.steady_speed_mps(watts=250, grade=0.05)  # 5% climb
+print(round(v * 3.6, 1), 'km/h')
+print(bike.power_w(speed_mps=10, draft_factor=0.8), 'W')  # only aero is reduced
+```
+
+The shared engine implements `P = A*d*v³ + B*r*v*cos(θ) + C*v*sin(θ) + D*v*a`, where `d` is the aero draft factor, `r` scales surface resistance, and `tan(θ)` is the grade. It also computes acceleration from power and current speed. The [five equipment profiles](zwift_physics/resources/profiles.json) are exploratory estimates at their specified fictional rider geometry; missing gravity or inertia means unmeasured, not zero. The original calibration API below retains its steady-flat envelope. Neither requires a live calculator.
+
 ## First calibration: measured, fitted, held out
 
 | Item | Result |

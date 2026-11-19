@@ -1,7 +1,7 @@
 """Effective steady-flat mechanics only. No physiological inputs or state."""
 from __future__ import annotations
 from dataclasses import dataclass
-import math
+from .engine import CyclingModel
 from ._io import number
 
 
@@ -47,38 +47,18 @@ class FlatCoefficients:
             if not 0 < number(d, "draft factor") <= 1:
                 raise ValueError("Draft factors must be in (0,1]")
 
-    def power(self, speed_mps: float, position: int = 1) -> PowerComponents:
-        v = number(speed_mps, "speed_mps")
-        if v < 0:
-            raise ValueError("Speed must be nonnegative")
+    def engine(self) -> CyclingModel:
+        return CyclingModel(self.alpha, self.beta)
+
+    def draft_factor(self, position: int) -> float:
         if isinstance(position, bool) or not isinstance(position, int) or not 1 <= position <= len(self.draft_factors):
             raise ValueError("Position is one-based and must have a calibrated factor")
-        try:
-            cubic = self.alpha * self.draft_factors[position - 1] * v**3
-            linear = self.beta * v
-        except OverflowError as exc:
-            raise ValueError("Power overflow") from exc
-        if not math.isfinite(cubic + linear):
-            raise ValueError("Power overflow")
-        return PowerComponents(cubic, linear)
+        return self.draft_factors[position - 1]
+
+    def power(self, speed_mps: float, position: int = 1) -> PowerComponents:
+        a, b, _, _ = self.engine().components_w(speed_mps, draft_factor=self.draft_factor(position))
+        return PowerComponents(a, b)
 
     def speed_for_power(self, watts: float, position: int = 1) -> float:
         """Monotone inverse in m/s; coefficient-level, not a domain guarantee."""
-        target = number(watts, "watts")
-        if target < 0:
-            raise ValueError("Power must be nonnegative")
-        self.power(0, position)
-        if target == 0:
-            return 0.
-        lo, hi = 0., 1.
-        while self.power(hi, position).total_watts < target:
-            hi *= 2
-            if hi > 1024:
-                raise ValueError("Requested power is outside the inverse solver's safety bound")
-        for _ in range(80):
-            mid = (lo + hi) / 2
-            if self.power(mid, position).total_watts > target:
-                hi = mid
-            else:
-                lo = mid
-        return (lo + hi) / 2
+        return self.engine().steady_speed_mps(watts, draft_factor=self.draft_factor(position))
