@@ -17,3 +17,6 @@ zwift-physics = "zwift_physics.__main__:main"
 
 [tool.setuptools.packages.find]
 include = ["zwift_physics*"]
+
+[tool.setuptools.package-data]
+zwift_physics = ["resources/*.json"]

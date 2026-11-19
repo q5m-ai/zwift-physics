@@ -23,7 +23,22 @@ print(round(v * 3.6, 1), 'km/h')
 print(bike.power_w(speed_mps=10, draft_factor=0.8), 'W')  # only aero is reduced
 ```
 
-The shared engine implements `P = A*d*v³ + B*r*v*cos(θ) + C*v*sin(θ) + D*v*a`, where `d` is the aero draft factor, `r` scales surface resistance, and `tan(θ)` is the grade. It also computes acceleration from power and current speed. The [five equipment profiles](zwift_physics/resources/profiles.json) are exploratory estimates at their specified fictional rider geometry; missing gravity or inertia means unmeasured, not zero. The original calibration API below retains its steady-flat envelope. Neither requires a live calculator.
+The shared engine implements `P = A*d*v³ + B*r*v*cos(θ) + C*v*sin(θ) + D*v*a`, where `d` is the aero draft factor, `r` scales surface resistance, and `tan(θ)` is the grade. It also computes acceleration from power and current speed. The [five Gopher setups](zwift_physics/resources/profiles.json) and [eight Speed Lab setups](zwift_physics/resources/speedlab-reference-v1.json) are exploratory estimates covering **10 unique frames**. A profile describes rider + frame + wheels + upgrade, not a component in isolation. Missing gravity or inertia means unmeasured, not zero. The original calibration API below retains its steady-flat envelope. Neither requires a live calculator.
+
+## Select a measured bike offline
+
+```python
+from zwift_physics import RiderGeometry
+from zwift_physics.profiles import equipment_model
+
+bike = equipment_model('cervelo_p_5_2026', 'cadex_42', level=0,
+                       rider=RiderGeometry(75, 180), source='speedlab', allow_exploratory=True)
+print(round(bike.steady_speed_mps(250) * 3.6, 1))  # 39.6 km/h on level pavement
+```
+
+The Speed Lab reference uses matched CADEX 42 wheels, no aero socks, and stock frames. Its three effective coefficients are fitted to publicly displayed speed curves (130/400 W on flat pavement and 250 W at +6%). Checks use 17 interior flat points and eight other grades per setup; maximum errors are 0.20 W and 0.34 W respectively **against that calculator**, not against Zwift rides. The opening setup repeated exactly. There is no acceleration estimate in this experiment. Do not extrapolate to other wheelsets, riders or upgrade levels.
+
+Rebuild the estimates offline with `python3 -m zwift_physics.equipment_fit experiments/speedlab-reference-v1.json data/speedlab-reference-v1.json`. Source: [Zwift Speed Lab](https://zwiftspeedlab.coalitionracing.com/); experiment metadata and original numeric readings are in the repository, not a copy of its implementation or equipment database.
 
 ## First calibration: measured, fitted, held out
 

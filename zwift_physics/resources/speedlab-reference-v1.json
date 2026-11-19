@@ -1,0 +1,174 @@
+{
+  "source": "https://zwiftspeedlab.coalitionracing.com/",
+  "experiment": "speedlab-reference-v1",
+  "profiles": [
+    {
+      "frame": "zwift_tt",
+      "wheels": "cadex_42",
+      "level": 0,
+      "aero_socks": false,
+      "reference_rider": {
+        "mass_kg": 75,
+        "height_cm": 180
+      },
+      "status": "exploratory",
+      "coefficients": {
+        "aero": 0.16757127096783556,
+        "rolling_n": 3.290404701020929,
+        "gravity_n": 819.3149988773795,
+        "inertia_kg": null
+      },
+      "checks": {
+        "flat_max_error_w": 0.19603806437908133,
+        "grade_max_error_w": 0.1154120767186555
+      }
+    },
+    {
+      "frame": "bmc_timemachine_01",
+      "wheels": "cadex_42",
+      "level": 0,
+      "aero_socks": false,
+      "reference_rider": {
+        "mass_kg": 75,
+        "height_cm": 180
+      },
+      "status": "exploratory",
+      "coefficients": {
+        "aero": 0.16451201717010555,
+        "rolling_n": 3.2804932651117973,
+        "gravity_n": 817.2935504747325,
+        "inertia_kg": null
+      },
+      "checks": {
+        "flat_max_error_w": 0.11650785553808873,
+        "grade_max_error_w": 0.33028258910167096
+      }
+    },
+    {
+      "frame": "cervelo_p_5_2026",
+      "wheels": "cadex_42",
+      "level": 0,
+      "aero_socks": false,
+      "reference_rider": {
+        "mass_kg": 75,
+        "height_cm": 180
+      },
+      "status": "exploratory",
+      "coefficients": {
+        "aero": 0.16061044417102296,
+        "rolling_n": 3.262644232387519,
+        "gravity_n": 815.0843448346312,
+        "inertia_kg": null
+      },
+      "checks": {
+        "flat_max_error_w": 0.08810523804964987,
+        "grade_max_error_w": 0.10749071341427907
+      }
+    },
+    {
+      "frame": "felt_ia",
+      "wheels": "cadex_42",
+      "level": 0,
+      "aero_socks": false,
+      "reference_rider": {
+        "mass_kg": 75,
+        "height_cm": 180
+      },
+      "status": "exploratory",
+      "coefficients": {
+        "aero": 0.1621415412881502,
+        "rolling_n": 3.275889875663447,
+        "gravity_n": 816.8925413720193,
+        "inertia_kg": null
+      },
+      "checks": {
+        "flat_max_error_w": 0.12338106665092141,
+        "grade_max_error_w": 0.14722799404984244
+      }
+    },
+    {
+      "frame": "trek_speed_concept_2021",
+      "wheels": "cadex_42",
+      "level": 0,
+      "aero_socks": false,
+      "reference_rider": {
+        "mass_kg": 75,
+        "height_cm": 180
+      },
+      "status": "exploratory",
+      "coefficients": {
+        "aero": 0.16212749722351072,
+        "rolling_n": 3.3148336247315004,
+        "gravity_n": 827.2069291087571,
+        "inertia_kg": null
+      },
+      "checks": {
+        "flat_max_error_w": 0.1005155228878607,
+        "grade_max_error_w": 0.19986893059399335
+      }
+    },
+    {
+      "frame": "ventum_one",
+      "wheels": "cadex_42",
+      "level": 0,
+      "aero_socks": false,
+      "reference_rider": {
+        "mass_kg": 75,
+        "height_cm": 180
+      },
+      "status": "exploratory",
+      "coefficients": {
+        "aero": 0.16375175391263744,
+        "rolling_n": 3.2976143705620125,
+        "gravity_n": 824.3560926905192,
+        "inertia_kg": null
+      },
+      "checks": {
+        "flat_max_error_w": 0.15747136793424943,
+        "grade_max_error_w": 0.1964030646653896
+      }
+    },
+    {
+      "frame": "zwift_aero",
+      "wheels": "cadex_42",
+      "level": 0,
+      "aero_socks": false,
+      "reference_rider": {
+        "mass_kg": 75,
+        "height_cm": 180
+      },
+      "status": "exploratory",
+      "coefficients": {
+        "aero": 0.18122094405607592,
+        "rolling_n": 3.1919382729898924,
+        "gravity_n": 798.3827418723467,
+        "inertia_kg": null
+      },
+      "checks": {
+        "flat_max_error_w": 0.13847010038654162,
+        "grade_max_error_w": 0.2988240148363559
+      }
+    },
+    {
+      "frame": "zwift_carbon",
+      "wheels": "cadex_42",
+      "level": 0,
+      "aero_socks": false,
+      "reference_rider": {
+        "mass_kg": 75,
+        "height_cm": 180
+      },
+      "status": "exploratory",
+      "coefficients": {
+        "aero": 0.18295076757500112,
+        "rolling_n": 3.1959862187179677,
+        "gravity_n": 798.3481200699367,
+        "inertia_kg": null
+      },
+      "checks": {
+        "flat_max_error_w": 0.18912412009626678,
+        "grade_max_error_w": 0.11015861989108089
+      }
+    }
+  ]
+}
