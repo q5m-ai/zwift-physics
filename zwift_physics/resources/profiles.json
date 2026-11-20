@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "experiments": ["gopher-tt-mechanics-pilot-v1", "gopher-flat-cross-v1"],
+  "source": "https://zwiftgopher.com/TT/",
+  "pilot_observations_sha256": "0e5966fbe9de5d8e191d989f871004736500736f6f474444b6c36eb200fde41b",
+  "profiles": [
+    {
+      "frame": "cadex_tri_2022",
+      "wheels": "cadex_4spoke_disc_65",
+      "experiment": "gopher-tt-mechanics-pilot-v1",
+      "level": 5,
+      "aero_socks": false,
+      "reference_rider": {
+        "mass_kg": 75,
+        "height_cm": 180
+      },
+      "status": "exploratory",
+      "coefficients": {
+        "aero": 0.14826901392599126,
+        "gravity_n": 820.3223003057496,
+        "inertia_kg": 88.9803239956253,
+        "rolling_n": 3.018400235249567
+      },
+      "inertia_evidence": "paired inertia-on/off default 20-sample energy windows"
+    },
+    {
+      "frame": "canyon_speedmax_cfr_2026",
+      "wheels": "cadex_4spoke_disc_65",
+      "experiment": "gopher-tt-mechanics-pilot-v1",
+      "level": 0,
+      "aero_socks": false,
+      "reference_rider": {
+        "mass_kg": 75,
+        "height_cm": 180
+      },
+      "status": "exploratory",
+      "coefficients": {
+        "aero": 0.15243251215016673,
+        "gravity_n": 820.6673867679772,
+        "inertia_kg": 89.01551302166656,
+        "rolling_n": 3.275352514173282
+      },
+      "inertia_evidence": "assumed: same inertia minus climbing mass as default; Canyon inertia-on was not observed"
+    },
+    {
+      "experiment": "gopher-flat-cross-v1", "frame": "canyon_speedmax_cfr_2026", "wheels": "cadex_42",
+      "level": 0, "aero_socks": false, "reference_rider": {"mass_kg": 75, "height_cm": 180},
+      "status": "exploratory", "coefficients": {"aero": 0.16076980647144462, "rolling_n": 3.2622992820871026},
+      "inertia_evidence": "Not measured; flat-only profile."
+    },
+    {
+      "experiment": "gopher-flat-cross-v1", "frame": "cadex_tri_2022", "wheels": "cadex_4spoke_disc_65",
+      "level": 0, "aero_socks": false, "reference_rider": {"mass_kg": 75, "height_cm": 180},
+      "status": "exploratory", "coefficients": {"aero": 0.15315574681943814, "rolling_n": 3.2774991206039132},
+      "inertia_evidence": "Not measured; flat-only profile."
+    },
+    {
+      "experiment": "gopher-flat-cross-v1", "frame": "cadex_tri_2022", "wheels": "cadex_42",
+      "level": 0, "aero_socks": false, "reference_rider": {"mass_kg": 75, "height_cm": 180},
+      "status": "exploratory", "coefficients": {"aero": 0.1614874011061872, "rolling_n": 3.2559330170278358},
+      "inertia_evidence": "Not measured; flat-only profile fitted after scoring the frozen prediction."
+    }
+  ]
+}

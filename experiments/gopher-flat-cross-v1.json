@@ -1,0 +1,16 @@
+{
+  "experiment": "gopher-flat-cross-v1",
+  "source": "https://zwiftgopher.com/TT/",
+  "route": "Tempus Fugit, 2128890027, one lap including lead-in",
+  "fictional_rider": {"mass_kg": 75, "height_cm": 180, "ftp_w": 300},
+  "conditions": "Both frames stage 0; no aero socks, no inertia, 100% prescribed power, no optimizer. Identical course geometry and power schedule in all cells.",
+  "frames": ["canyon_speedmax_cfr_2026", "cadex_tri_2022"],
+  "wheels": ["cadex_4spoke_disc_65", "cadex_42"],
+  "sequence": ["draft seed (unscored)", "Canyon+disc", "Canyon+42", "Tri+disc", "freeze predicted Tri+42 coefficients", "Tri+42 evaluation", "Canyon+disc repeat control"],
+  "targets_w": [150, 250, 350],
+  "selection": "Three equal route-index intervals. Use median speed at each target among nontrivial (>=0.05 m) segments with absolute reconstructed rise/run <=1e-6 and reference pavement Crr 0.004. Require >=10 samples at each target. No residual-based exclusion.",
+  "fit": "Fit P=A*v^3+B*v from 150 and 350 W medians, v in m/s. 250 W checks curve shape. No family selection. Predict the fourth curve as Tri+disc plus Canyon+42 minus Canyon+disc, term by term, before submitting that cell.",
+  "acceptance": "All four individual fits positive A, nonnegative B and <=1 W absolute error at 250 W. Frozen fourth prediction <=1 W maximum absolute error at all three observed speeds. Repeat median speeds within 0.02 km/h at each target. No retuning. This tests flat additivity at these settings only.",
+  "budget": {"requests": 8, "simulations": 6, "spacing_seconds": 2.1},
+  "stop_rules": "Fresh anonymous public UI only. No redirects, retries, optimization or sharing. Stop on HTTP/network, schema/context or unknown write outcome. Archive allowlisted medians/counts and frozen prediction, never raw payloads. Old stopped pilot ledger untouched."
+}
