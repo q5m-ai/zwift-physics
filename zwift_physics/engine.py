@@ -53,8 +53,13 @@ class CyclingModel:
         return parts
 
     def power_w(self, speed_mps, grade=0., acceleration_mps2=0., *, surface_ratio=1., draft_factor=1.):
-        return sum(self.components_w(speed_mps, grade, acceleration_mps2,
-                                     surface_ratio=surface_ratio, draft_factor=draft_factor))
+        parts = self.components_w(speed_mps, grade, acceleration_mps2,
+                                  surface_ratio=surface_ratio, draft_factor=draft_factor)
+        # Built-in float summation changed in Python 3.12. Keep fitted residuals reproducible.
+        try:
+            return number(math.fsum(parts), 'power result')
+        except OverflowError as exc:
+            raise ValueError('Power overflow') from exc
 
     def acceleration_mps2(self, speed_mps, watts, grade=0., *, surface_ratio=1., draft_factor=1.):
         v, p = number(speed_mps), number(watts)
