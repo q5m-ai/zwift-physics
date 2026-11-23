@@ -1,0 +1,115 @@
+{
+  "planner_asset_version": "1795105241",
+  "design_sha256": "5d091ae3ce4f2c357ec9ab5c783f50bce1314dc09946654fcacdb2e9de3dbad4",
+  "requests": 8,
+  "simulations": 6,
+  "frozen_prediction": [
+    0.1614930411407161,
+    3.2644458885177308
+  ],
+  "fourth_errors_w": [
+    0.08141451206287798,
+    0.1691733581556889,
+    0.11656012437572372
+  ],
+  "repeat_difference_kph": 0.0,
+  "passes_flat_cross": true,
+  "experiment": "gopher-flat-cross-v1",
+  "target_w": [
+    150,
+    250,
+    350
+  ],
+  "rows": [
+    {
+      "setup": "canyon_speedmax_cfr_2026/cadex_4spoke_disc_65/0/0",
+      "median_kph": [
+        33.22,
+        40.27,
+        45.54
+      ],
+      "counts": [
+        97,
+        225,
+        87
+      ],
+      "coefficients": [
+        0.15243251215016668,
+        3.275352514173285
+      ],
+      "check_250_w": -0.0005647683526603942
+    },
+    {
+      "setup": "canyon_speedmax_cfr_2026/cadex_42/0/0",
+      "median_kph": [
+        32.69,
+        39.61,
+        44.78
+      ],
+      "counts": [
+        97,
+        225,
+        87
+      ],
+      "coefficients": [
+        0.16076980647144462,
+        3.2622992820871026
+      ],
+      "check_250_w": 0.04111695396201753
+    },
+    {
+      "setup": "cadex_tri_2022/cadex_4spoke_disc_65/0/0",
+      "median_kph": [
+        33.17,
+        40.21,
+        45.47
+      ],
+      "counts": [
+        97,
+        225,
+        87
+      ],
+      "coefficients": [
+        0.15315574681943814,
+        3.2774991206039132
+      ],
+      "check_250_w": 0.024354714362090135
+    },
+    {
+      "setup": "cadex_tri_2022/cadex_42/0/0",
+      "median_kph": [
+        32.65,
+        39.56,
+        44.72
+      ],
+      "counts": [
+        97,
+        225,
+        87
+      ],
+      "coefficients": [
+        0.1614874011061872,
+        3.2559330170278358
+      ],
+      "check_250_w": 0.06814219843894875
+    },
+    {
+      "setup": "canyon_speedmax_cfr_2026/cadex_4spoke_disc_65/0/0",
+      "median_kph": [
+        33.22,
+        40.27,
+        45.54
+      ],
+      "counts": [
+        97,
+        225,
+        87
+      ],
+      "coefficients": [
+        0.15243251215016668,
+        3.275352514173285
+      ],
+      "check_250_w": -0.0005647683526603942
+    }
+  ]
+}
