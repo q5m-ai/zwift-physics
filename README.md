@@ -23,7 +23,7 @@ print(round(v * 3.6, 1), 'km/h')
 print(bike.power_w(speed_mps=10, draft_factor=0.8), 'W')  # only aero is reduced
 ```
 
-The shared engine implements `P = A*d*v³ + B*r*v*cos(θ) + C*v*sin(θ) + D*v*a`, where `d` is the aero draft factor, `r` scales surface resistance, and `tan(θ)` is the grade. It also computes acceleration from power and current speed. The [five Gopher setups](zwift_physics/resources/profiles.json) and [eight Speed Lab setups](zwift_physics/resources/speedlab-reference-v1.json) are exploratory estimates covering **10 unique frames**. A profile describes rider + frame + wheels + upgrade, not a component in isolation. Missing gravity or inertia means unmeasured, not zero. The original calibration API below retains its steady-flat envelope. Neither requires a live calculator.
+The shared engine implements `P = A*d*v³ + B*r*v*cos(θ) + C*v*sin(θ) + D*v*a`, where `d` is the aero draft factor, `r` scales surface resistance, and `tan(θ)` is the grade. It also computes acceleration from power and current speed. The [three flat-only Gopher setups](zwift_physics/resources/profiles.json) and [eight Speed Lab setups](zwift_physics/resources/speedlab-reference-v1.json) are exploratory estimates covering **10 unique frames**. A profile describes rider + frame + wheels + upgrade, not a component in isolation. Missing gravity or inertia means unmeasured, not zero. The original calibration API below retains its steady-flat envelope. Neither requires a live calculator.
 
 ## Select a measured bike offline
 
